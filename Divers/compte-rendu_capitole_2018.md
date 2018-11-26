@@ -1,7 +1,9 @@
 Capitole du Libre 2018 : compte-rendu du week-end
 =================================================
 
-Le **Capitole du Libre** 2018 s'est tenu à Toulouse les samedi 17 et dimanche 18 novembre derniers.
+![Geeko à Toulouse](./capitole2018.jpeg)
+
+Le **[Capitole du Libre](https://2018.capitoledulibre.org/)** 2018 s'est tenu à Toulouse les samedi 17 et dimanche 18 novembre derniers.
 Alionet était présente sur un stand au sein du village associatif afin de faire la promotion du projet openSUSE mais aussi d'échanger avec d'autres membres de la communauté Libre et open-source francophone.
 Pour ceux qui ne connaîtraient pas, le Capitole est un événément important parmi les regroupements Libres et open-source. Sur 2 jours, il propose de nombreuses conférences et stands, les thèmes étant un bon équilibre entre technique informatique pure, débat de société autour des enjeux politiques du numérique et accès au Libre pour les débutants.
 
