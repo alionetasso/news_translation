@@ -93,4 +93,5 @@ En outre, vous pourrez configurer une clé publique pour l'utilisateur *root* lo
 
 ## Et ça continue d'avancer!
 
-zsh:1: command not found: 2m
+L’équipe de YaST s’efforce sans relâche de corriger les bogues et, plus particulièrement, de créer de nouvelles fonctionnalités que tous pourront utiliser dans les prochaines versions de tous les produits des familles SLE et openSUSE. Donc, même si nous aimerions continuer à vous parler de toutes les améliorations, il est temps de retourner programmer !
+On se revoit dans deux semaines avec un nouveau rapport.
