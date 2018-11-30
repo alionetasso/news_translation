@@ -1,20 +1,19 @@
-Dear Tumbleweed users and hackers,
+Chers utilisateurs et *hackers* de Tumbleweed,
 
-The last two weeks were quite busy with snapshots: if you keep up at full pace, you received 7 new snapshots: 1116, 1118, 1120,  1122, 1126, 1128 and 1129.
-These snapshots brought these updates (and many more, as usual):
+Les deux dernières semaines ont été plutôt chargées en *snapshots* : si vous suivez à plein régime les mises à jour, vous avez reçu 7 nouveaux instantanés: 1116, 1118, 1120, 1122, 1126, 1128 et 1129.
+Ces instantanés ont apporté principalement les mises à jour suivantes (et beaucoup d'autres, comme d'habitude):
 
 * KDE Frameworks 5.52.0
 * FFmpeg 4.1
-* systemd 239
-* Linux kernel 4.19.2 & 4.19.4
+* système 239
+* Noyaux Linux 4.19.2 et 4.19.4
 * Mozilla Firefox 63.0
-* openSSH 7.9p1: default config no longer permits root access using password auth
+* openSSH 7.9p1: la configuration par défaut n'autorise plus l'accès root à l'aide de password auth
 
-Changes that are currently being staged and tested:
+Changements en cours de réalisation et de test:
 
-* glibc 2.28, Python 3.7, openssl 1.1.1: the three all interdepend on each other and cause a bunch of new failures – See Staging:C
-* LLVM7 / Mesa 18.2.x (rust fails to build with LLVM7)
-* Installer redesign: the sidebar is coming back (showing where in the installation workflow one is currently)
+* glibc 2.28, Python 3.7, openssl 1.1.1: les trois sont interdépendants et provoquent de nombreux échecs - Voir Staging: C
+* LLVM7 / Mesa 18.2.x (Rust ne parvient pas à construire avec LLVM7)
+* Nouveau *design* de l'installateur: la barre latérale revient (indiquant l'étape d'installation actuelle)
 * PostgreSQL 11
 * KDE Plasma 5.14.4
-
