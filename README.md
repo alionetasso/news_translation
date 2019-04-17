@@ -55,7 +55,7 @@ On vous demande une phrase de passe qui chiffre la clé qui va être créée et 
 #### Pour la 1ère fois
 
 ```
-git clone git@git.volted.net:sogal/trad_opensuse.git
+git clone git@git.volted.net:opensuse-fr/trad_opensuse.git
 ```
 #### Pour mise à jour
 
