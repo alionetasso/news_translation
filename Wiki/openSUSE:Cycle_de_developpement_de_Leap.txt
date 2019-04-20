@@ -1,0 +1,109 @@
+{{Leap navbar}}
+
+{{Intro|This article will give you a view from of the development lifecycle and concepts of [[Portal:Leap|openSUSE Leap]]. It is provided to explain the different steps of creating Leap on the base of SLE and how a release is put together.}}
+
+== Concepts and steps of the development process of openSUSE Leap ==
+
+* all maintenance updates for Leap version-1 are automatically pushed (over the full cycle until the version gets frozen)
+
+* all SLE15SPx updates are automatically pushed (over the full cycle)
+
+* all packages which came from Factory originally should be submitted again by a maintainer if an update is desired for the next Leap version. The target audience for Leap and a seamless upgrade process has to be kept in mind. To support this and to make sure there are no things forgotten, during the lifecycle a tool will check all packages with Factory origin for successful build status against the developed Leap and will perform submissions which can be accepted by the maintainer easily. Non-accepted requests will not be included.
+
+* over the full time active submissions from Factory to Leap will be considered for acceptance if the package builds and was not coming from SLE15 before. Submissions need to be either performed by the maintainer or if not, the maintainer has to approve the update.
+
+* in case a package should be switched from SLE15 to Factory or vice versa a review process will be triggered for leap-reviewers group
+
+* packages which were forked from SLE15 _and_ Factory because of certain reasons must be reviewed if they can possibly be upstreamed back to SLE15 of Factory 
+* new packages in SLE15 or Factory should be reviewed for inclusion into Leap; automatic tool submissions will/might be performed
+
+OBS tools to manage some of the above steps can be found here: https://github.com/openSUSE/osc-plugin-factory
+
+== Leap release engineering ==
+
+Release engineering daily business
+
+=== Check stagings ===
+
+https://build.opensuse.org/project/staging_projects/openSUSE:Leap:15.1
+
+    osc staging -p openSUSE:Leap:15.1 list
+    osc staging -p openSUSE:Leap:15.1 check
+    osc staging -p openSUSE:Leap:15.1 select X package ...
+    osc staging -p openSUSE:Leap:15.1 unselect -m "message" package ...
+
+* debug failures
+* check open reviews ie ping review team if needed, check what legal-auto is doing, verify repo-checker isn't stuck etc.
+* make sure packages are grouped in a sensible way
+* unselect and mark as ignored requests that cannot be staged right now
+* decline requests we cannot take
+
+=== Make sure rings are green ===
+
+https://build.opensuse.org/project/dashboard/openSUSE:Leap:15.1
+
+* debug failures
+* trigger rebuilds
+* add/remove packages if needed
+
+=== Check build failures and unresolvables in the target project ===
+
+https://build.opensuse.org/project/show/openSUSE:Leap:15.1,
+https://build.opensuse.org/project/status/openSUSE:Leap:15.1
+
+* debug causes
+* file bugs or contact maintainers
+* trigger rebuilds for random failures
+
+=== Get openQA green ===
+
+https://openqa.opensuse.org/group_overview/50
+
+* debug failures
+* file issues and bugs
+* restart jobs that failed due to openQA issues
+* add ''@ttm ignore'' for failures we can ignore (after filing an issue)
+
+=== Check repo checker output for new failures ===
+
+repo_checker finds packages with uninstallable dependencies:
+https://build.opensuse.org/package/view_file/openSUSE:Leap:15.1:Staging/dashboard/repo_checker
+
+* debug failures
+* contact maintainers or file bugs
+
+=== Check ADI stagings ===
+
+    osc staging -p openSUSE:Leap:15.1 adi --by-devel
+
+* debug failures
+* verify packages are grouped together correctly. Move if needed.
+* remind packagers of reviews if needed
+* decline requests that have no chance or sit there for too long
+
+=== Process leap-reviewers queue ===
+
+   osc review list -G leap-reviewers
+
+* ack easy ones.
+* Decline obviously too dangerous feature updates or origin switches, especially from SLE
+* notify release manager for unclear issues
+
+=== Checkin ♦ ===
+
+   osc staging -p openSUSE:Leap:15.1 accept X Y ...
+
+* make sure to apply changes made in stagings also in rings
+* adjust _product files if needed
+
+=== Bug list ===
+
+https://bugzilla.opensuse.org/buglist.cgi?list_id=6617721&product=openSUSE%20Distribution&resolution=---&version=Leap%2015.1
+
+* keep an eye on incoming bugs
+* normally the bug screening team takes care of assigning bugs but we may want to do that ourselves for important ones
+* raise priority and severity on important ones
+* set ship stopper flag if needed
+
+[[Category:Leap]]
+
