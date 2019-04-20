@@ -1,23 +1,24 @@
 {{Leap navbar}}
 
-{{Intro|This article will give you a view from of the development lifecycle and concepts of [[Portal:Leap|openSUSE Leap]]. It is provided to explain the different steps of creating Leap on the base of SLE and how a release is put together.}}
+{{Intro|Cet article vise à vous donner un aperçu des concepts et cycle de développment de [[Portal:Leap|openSUSE Leap]]. Son objectif est de présenter les différentes étapes de la création de Leap depuis la base fournie par SLE (SUSE Linux Enterprise) et la façon dont une distribution est assemblée.
 
-== Concepts and steps of the development process of openSUSE Leap ==
+== Concepts et étapes du développment d'openSUSE Leap ==
 
-* all maintenance updates for Leap version-1 are automatically pushed (over the full cycle until the version gets frozen)
+* toutes les mises à jour de maintenance de Leap version 1 sont automatiquement intégrées (tout au long du cycle et ce jusqu'à ce que la version soit figée)
 
-* all SLE15SPx updates are automatically pushed (over the full cycle)
+* toutes les mises à jour provenant de SLE15SPx sont automatiquement intégrées (tout au long du cycle)
 
-* all packages which came from Factory originally should be submitted again by a maintainer if an update is desired for the next Leap version. The target audience for Leap and a seamless upgrade process has to be kept in mind. To support this and to make sure there are no things forgotten, during the lifecycle a tool will check all packages with Factory origin for successful build status against the developed Leap and will perform submissions which can be accepted by the maintainer easily. Non-accepted requests will not be included.
+* tout les paquets provenant de Factory doivent être proposés à nouveau par un mainteneur si une mise à jour doit être incluse dans la prochaine version de Leap. Le public visé pour Leap et son processus de mise à jour transparent doit être pris en compte. Pour prendre cela en charge et s'assurer qu'aucun détail n'est omis, un outil automatisé va vérifier, tout au long du processus de développment, que l'ensemble des paquets présents dans Factory sont issus de constructions conformes à la version cible de Leap et seront construits de façon à ce que les futures demandes d"intégrations puissent être acceptées facilement par le mainteneur. Les requêtes n'ayant pas été acceptées ne seront évidemment pas incluses.
 
-* over the full time active submissions from Factory to Leap will be considered for acceptance if the package builds and was not coming from SLE15 before. Submissions need to be either performed by the maintainer or if not, the maintainer has to approve the update.
+* durant toute cette période, les propositions d'inclusion depuis Factory vers Leap seront étudiées si le paquet construit correctement et ne provient pas originellement de SLE15. Les requêtes doivent être effectuées par le mainteneur, à défaut celui-ci doit approuver la mise à jour.
 
-* in case a package should be switched from SLE15 to Factory or vice versa a review process will be triggered for leap-reviewers group
+* dans le cas où un paquet doit être transféré depuis SLE15 vers Factory ou l'inverse, un processus de révision par le group ''leap-reviewers'' sera déclenché.
 
-* packages which were forked from SLE15 _and_ Factory because of certain reasons must be reviewed if they can possibly be upstreamed back to SLE15 of Factory 
-* new packages in SLE15 or Factory should be reviewed for inclusion into Leap; automatic tool submissions will/might be performed
+* les paquets ''forkés'', pour diverses raisons, depuis SLE15 _et_ Factory doivent être revus s'il y a lieu de penser qu'ils pourraient être intégrés en retour à SLE15 ou à Factory.
 
-OBS tools to manage some of the above steps can be found here: https://github.com/openSUSE/osc-plugin-factory
+* les nouveaux paquets dans SLE15 ou Factory doivent être revus avant inclusion ; des intégrations via des outils automatisés peuvent avoir lieu.
+
+Les outils OBS utilisés pour gérer certaines étapes ci-dessus peuvent être trouvés ici :https://github.com/openSUSE/osc-plugin-factory
 
 == Leap release engineering ==
 
