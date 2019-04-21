@@ -20,11 +20,11 @@
 
 Les outils OBS utilisés pour gérer certaines étapes ci-dessus peuvent être trouvés ici :https://github.com/openSUSE/osc-plugin-factory
 
-== Leap release engineering ==
+== Conception des versions de Leap ==
 
-Release engineering daily business
+Vie quotidienne de la conception d'une publication
 
-=== Check stagings ===
+=== Vérification des files d'attente ===
 
 https://build.opensuse.org/project/staging_projects/openSUSE:Leap:15.1
 
@@ -33,13 +33,13 @@ https://build.opensuse.org/project/staging_projects/openSUSE:Leap:15.1
     osc staging -p openSUSE:Leap:15.1 select X package ...
     osc staging -p openSUSE:Leap:15.1 unselect -m "message" package ...
 
-* debug failures
-* check open reviews ie ping review team if needed, check what legal-auto is doing, verify repo-checker isn't stuck etc.
-* make sure packages are grouped in a sensible way
-* unselect and mark as ignored requests that cannot be staged right now
-* decline requests we cannot take
+* procéder au déboggage des échecs
+* vérifier les revues en cours, et prendre contact avec l'équipe en charge de celle-ci si besoin, vérifier ce que legal-auto est en train de faire, que repo-checker n'est pas bloqué, etc.
+* s'assurer que les paquets sont groupés de façon logique
+* déselectionner et marquer comme ignorées les requêtes ne pouvant pas être mises en file d'attente dans l'immédiat
+* décliner les requêtes ne pouvant être gérées
 
-=== Make sure rings are green ===
+=== S'assurer que les voyants sont au vert ===
 
 https://build.opensuse.org/project/dashboard/openSUSE:Leap:15.1
 
