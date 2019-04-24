@@ -43,68 +43,71 @@ https://build.opensuse.org/project/staging_projects/openSUSE:Leap:15.1
 
 https://build.opensuse.org/project/dashboard/openSUSE:Leap:15.1
 
-* debug failures
-* trigger rebuilds
-* add/remove packages if needed
+* diagnostiquer les échecs de construction
+* relancer les constructions en échec
+* ajouter ou supprimer des paquets si besoin
 
-=== Check build failures and unresolvables in the target project ===
+=== Vérifier les erreurs de construction et les dépendances insolvables dans le projet cible ===
 
 https://build.opensuse.org/project/show/openSUSE:Leap:15.1,
 https://build.opensuse.org/project/status/openSUSE:Leap:15.1
 
-* debug causes
-* file bugs or contact maintainers
-* trigger rebuilds for random failures
+* diagnostiquer les causes
+* remplir un rapport de bogue ou contacter les mainteneurs
+* relancer les constructions en cas d'erreurs aléatoires
 
-=== Get openQA green ===
+=== Mettre tous les voyants d'openQA au vert ===
 
 https://openqa.opensuse.org/group_overview/50
 
-* debug failures
-* file issues and bugs
-* restart jobs that failed due to openQA issues
-* add ''@ttm ignore'' for failures we can ignore (after filing an issue)
+* déboggage des échecs
+* remplir un rapport de bogue
+* redémarrer tous les travaux ayant échoués du fait d'erreurs remontées par openQA
+* ajouter le drapeau ''@ttm ignore'' aux échecs qui peuvent être ignorés (après création d'un rapport de bogue)
 
-=== Check repo checker output for new failures ===
+=== Vérifier les rapports du vérificateur de dépôts ===
 
-repo_checker finds packages with uninstallable dependencies:
+repo_checker vérifie les paquets ayant des dépendances non installables
 https://build.opensuse.org/package/view_file/openSUSE:Leap:15.1:Staging/dashboard/repo_checker
 
-* debug failures
-* contact maintainers or file bugs
+* diagnostiquer les erreurs
+* prendre contact avec les mainteneurs ou remplir un rapport de bogue
 
-=== Check ADI stagings ===
+=== Vérifier les files d'attente ADI ===
+
+''Le paquet osc-plugin-staging est nécessaire pour utiliser cette commande osc.''
 
     osc staging -p openSUSE:Leap:15.1 adi --by-devel
 
-* debug failures
-* verify packages are grouped together correctly. Move if needed.
-* remind packagers of reviews if needed
-* decline requests that have no chance or sit there for too long
+* diagnostiquer les erreurs
+* vérifier que les paquets sont  correctement groupés, les déplacer au besoin
+* rappeler aux paqueteurs que des demandes de revus sont en attente si besoin
+* décliner les requêtes ne pouvant être incluse ou qui sont en attente depuis trop longtemps
 
-=== Process leap-reviewers queue ===
+=== Gérer la file d'attente leap-reviewers ===
 
    osc review list -G leap-reviewers
 
-* ack easy ones.
-* Decline obviously too dangerous feature updates or origin switches, especially from SLE
-* notify release manager for unclear issues
+* prendre en compte les remarques simples
+* décliner les mises à jour apportant trop de changement ou impliquant un changement d'origine du paquet, notamment depuis SLE
+* notifier le responsable de la publication des soucis dont vous n'êtes pas certain
 
-=== Checkin ♦ ===
+=== Embarquement ! ===
 
    osc staging -p openSUSE:Leap:15.1 accept X Y ...
 
-* make sure to apply changes made in stagings also in rings
-* adjust _product files if needed
+* s'assurer que les changements apportés à ''staging'' le soit également dans ''rings''
+* ajuster les fichiers _product lorsque nécessaire
 
-=== Bug list ===
+=== Liste des bogues ===
 
 https://bugzilla.opensuse.org/buglist.cgi?list_id=6617721&product=openSUSE%20Distribution&resolution=---&version=Leap%2015.1
 
-* keep an eye on incoming bugs
-* normally the bug screening team takes care of assigning bugs but we may want to do that ourselves for important ones
-* raise priority and severity on important ones
-* set ship stopper flag if needed
+* garder l'œil sur les nouveaux bogues
+* normalement l'équipe en charge du filtrage des bogues prend soin de les assigner mais vous pourriez vouloir le faire vous-même pour les bogues importants
+* augmenter la priorité et la sévérité des bogues importants
+* ajouter le drapeau ''bloquant'' si besoin
 
 [[Category:Leap]]
 
+{{IW|Portal:Leap}}
