@@ -1,8 +1,7 @@
-## TRADUCTION EN COURS ##
-
 =====French=====
+'''Please translate this table, only the twitter and facebook/G+ tables with the final messages'''
 {| class="wikitable"
-!colspan="2"| French Base messages
+!colspan="2"|French Base messages
 |-
 !Time (UTC)
 ! Message
@@ -37,19 +36,19 @@
 |sogal
 |-
 |09:00
-|The release of @openSUSE Leap 15.1 provides adopters a reliable server operating system for deploying IT services and the tools, languages and libraries to have fun - http://bit.ly/2Vpf1jA
+| La publication d'@openSUSE Leap 15.1 offre à ses usagers un système d'exploitation pour serveur fiable afin de déployer les services informatisés ainsi que tous les outils, langages et bibliothèques nécessaires - http://bit.ly/2Vpf1jA
 |sogal
 |-
 |10:30
-|Linode will have cloud images available for @openSUSE Leap 15.1 in just a few hours. JIT Cloud might become a thing - https://www.linode.com/
+|Linode disposera des dernières images d'@openSUSE Leap 15.1 pour le cloud d'ici quelques heures. Et le Cloud "Just In Time" devient réalité ! - https://www.linode.com/
 |sogal
 |-
 |12:00 UTC
-|@openSUSE Leap 15.1 is now available. Retweet and Download it now at https://software.opensuse.org/distributions/leap
+|@openSUSE Leap 15.1 est maintenant disponible. Retweetez et téléchargez là sur https://software.opensuse.org/distributions/leap
 |sogal
 |-
 |16:30
-|Want to order some of the best laptops on the planet with @openSUSE Leap 15.1? You can order an InfinityBook Pro with Leap 15.1 now at www.tuxedocomputers.com
+|Vous voulez vous offrir l'un des meilleurs portables du monde avec @openSUSE Leap 15.1 préinstallé ? Vous pouvez commander dès maintenant un InfinityBook Pro avec Leap 15.1 sur www.tuxedocomputers.com
 |sogal
 |-
 |17:00
