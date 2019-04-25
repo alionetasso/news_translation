@@ -12,32 +12,32 @@
 | 3 jours avant 16:30
 |@openSUSE Leap 15.1 offre aux utilisateurs professionnels, aux entrepreneurs et éditeurs de logiciels une mise à jour système simple et transparente assurant la continuité des opérations d'importantes infrastructures supportant de lourdes charges de travail - http://bit.ly/2DxMq1w 
 |sogal
-|L'image est disponible dans le Github openSUSE dans le dossier "artwork" https://github.com/openSUSE/artwork/blob/master/socials/png/ build-to-scale.png
+|L'image est disponible dans le Github openSUSE dans le dossier "artwork" https://github.com/openSUSE/artwork/blob/master/socials/png/build-to-scale.png
 |-
 | 2 jours avant 10:30
 |Le noyau Linux 4.12 d'@openSUSE Leap 15.1 a reçu tous les rétroportages nécessaires du noyau 4.19 afin de prendre en charge de nouveau matériel graphique. Leap bénéficie du même noyau Linux Entreprise utilisé par SUSE - http://bit.ly/2Vpf1jA 
 |sogal
-|L'image est disponible dans le Github openSUSE dans le dossier "artwork"  https://github.com/openSUSE/artwork/blob/master/posters/ belief.png
+|L'image est disponible dans le Github openSUSE dans le dossier "artwork"  https://github.com/openSUSE/artwork/blob/master/posters/belief.png
 |-
-| 1 Day avant 10:00
-|System administrators using @openSUSE Leap 15.1 will have better control with @Salt formulas in the yast2-configuration-management module, and management of SSH keys per user will make sysadmins tasks much more pleasant - http://bit.ly/2PsL6S7  
-|ddemaio
-|L'image est disponible dans le Github openSUSE artwork stickers folder https://github.com/openSUSE/artwork/blob/master/stickers/png/ yast.png
+| 1 jour avant 10:00
+|Les administrateurs système utilisant @openSUSE Leap 15.1 bénéficient d'un meilleur contrôle sur leurs machines grâce aux formulas @Salt intégrées au module yast2-configuration-management. De même, la gestion des clés SSH par utilisateur facilitera la vie des sysadmins - http://bit.ly/2PsL6S7  
+|sogal
+|L'image est disponible dans le dossier 'artwork stickers' du Github openSUSE https://github.com/openSUSE/artwork/blob/master/stickers/png/yast.png
 |-
-|1 Day avant 13:00
-|@openSUSE Leap 15.1 has Kopano as part of the official release and can integrate with Kopano WebApp, Push clients and other mail services. Use an alternative to the 365 cash cow - http://bit.ly/2W56RKt 
-|ddemaio
+|1 jour avant 13:00
+|@openSUSE Leap 15.1 dispose de Kopano dans ses dépôts officiels et peut s'intégrer facilement avec Kopano WebApp, les clients Push et d'autres services mail. Il est temps d'utiliser une alternative à la vache à lait 365 - http://bit.ly/2W56RKt 
+|sogal
 |kopano.com/wp-content/uploads/2016/05/Inbox-webmeeting-1.png
 |-
-| 1 Day avant 16:30
-|GPU virtualization has become quite popular among vendors like AMD, Intel and Nvidia and @openSUSE Leap 15.1 helps to delivers these implementation with solutions for virtualized and cloud environments - http://bit.ly/2Dy8Gs9 
-|ddemaio
-|L'image est disponible dans le Github openSUSE artwork social folder https://github.com/openSUSE/artwork/blob/master/socials/png/ build-to-scale.png
+|1 jour avant 16:30
+|La virtualisation des GPU est de plus en plus populaire chez les fabriquants tels qu'AMD, Intel ou Nvidia, @openSUSE permet de bénéficier de ces implémentations grâce à des solutions pour environements virtualisés ou dans le cloud - http://bit.ly/2Dy8Gs9 
+|sogal
+|L'image est disponible dans le Github openSUSE dans le dossier "artwork" https://github.com/openSUSE/artwork/blob/master/socials/png/ build-to-scale.png
 |-
-| 1 Day avant 17:30
-|@openSUSE Leap 15.1 improves the power of YaST; its improved Partitioner can directly format full disks w/o partition tables, create software MD RAIDs on top of full disks, create partitions within a software-defined MD RAID and many other combinations - http://bit.ly/2GvB1jh 
-|ddemaio
-|L'image est disponible dans le Github openSUSE artwork stickers folder https://github.com/openSUSE/artwork/blob/master/stickers/png/ yast.png
+| 1 jour avant 17:30
+|@openSUSE Leap 15.1 accroit encore les possibilités de YaST ; son partitionneur amélioré peut formater directement des disques sans partition, créer des RAID logiciel MD sur la base de disques entiers, créer des partitions à l'intérieur de RAID MD logiciel et gérer de nombreuses autres combinaisons - http://bit.ly/2GvB1jh 
+|sogal
+|L'image est disponible dans le Github openSUSE dans le dossier "artwork stickers" https://github.com/openSUSE/artwork/blob/master/stickers/png/ yast.png
 |-
 | 1 Day avant 20:30
 |@KDE offers an LTS version and users of @openSUSE Leap know how good it is; Plasma 5.12 is so good, it will continue into Leap 15.1. Get the ultimate customization with KDE's Plasma 5.12 & Frameworks 5.55.0 - http://bit.ly/2ZxdDuz
