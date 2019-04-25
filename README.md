@@ -1,8 +1,8 @@
 Guide de contribution au dépôt des traductions
 ==============================================
 
-* [Utiliser Git](./contrib.md#Flux de travail Git)
-* [Écrire en Markdown](./contrib.md#Markdown)
+* [Utiliser Git](#Flux de travail Git)
+* [Écrire en Markdown](#Markdown)
 
 ## Flux de travail Git
 
