@@ -12,17 +12,17 @@
 | 3 jours avant 16:30
 |@openSUSE Leap 15.1 offre aux utilisateurs professionnels, aux entrepreneurs et éditeurs de logiciels une mise à jour système simple et transparente assurant la continuité des opérations d'importantes infrastructures supportant de lourdes charges de travail - http://bit.ly/2DxMq1w 
 |sogal
-|The image can be found in the openSUSE github artwork social folder https://github.com/openSUSE/artwork/blob/master/socials/png/ build-to-scale.png
+|L'image est disponible dans le Github openSUSE dans le dossier "artwork" https://github.com/openSUSE/artwork/blob/master/socials/png/ build-to-scale.png
 |-
 | 2 jours avant 10:30
-|Linux Kernel 4.12 for @openSUSE Leap 15.1 has received all necessary backports from the 4.19 Kernel that supports newer graphics hardware. Leap uses the same Enterprise Linux Kernel that SUSE uses - http://bit.ly/2Vpf1jA 
-|ddemaio
-|The image can be found in the openSUSE github artwork poster folder https://github.com/openSUSE/artwork/blob/master/posters/ belief.png
+|Le noyau Linux 4.12 d'@openSUSE Leap 15.1 a reçu tous les rétroportages nécessaires du noyau 4.19 afin de prendre en charge de nouveau matériel graphique. Leap bénéficie du même noyau Linux Entreprise utilisé par SUSE - http://bit.ly/2Vpf1jA 
+|sogal
+|L'image est disponible dans le Github openSUSE dans le dossier "artwork"  https://github.com/openSUSE/artwork/blob/master/posters/ belief.png
 |-
 | 1 Day avant 10:00
 |System administrators using @openSUSE Leap 15.1 will have better control with @Salt formulas in the yast2-configuration-management module, and management of SSH keys per user will make sysadmins tasks much more pleasant - http://bit.ly/2PsL6S7  
 |ddemaio
-|The image can be found in the openSUSE github artwork stickers folder https://github.com/openSUSE/artwork/blob/master/stickers/png/ yast.png
+|L'image est disponible dans le Github openSUSE artwork stickers folder https://github.com/openSUSE/artwork/blob/master/stickers/png/ yast.png
 |-
 |1 Day avant 13:00
 |@openSUSE Leap 15.1 has Kopano as part of the official release and can integrate with Kopano WebApp, Push clients and other mail services. Use an alternative to the 365 cash cow - http://bit.ly/2W56RKt 
@@ -32,12 +32,12 @@
 | 1 Day avant 16:30
 |GPU virtualization has become quite popular among vendors like AMD, Intel and Nvidia and @openSUSE Leap 15.1 helps to delivers these implementation with solutions for virtualized and cloud environments - http://bit.ly/2Dy8Gs9 
 |ddemaio
-|The image can be found in the openSUSE github artwork social folder https://github.com/openSUSE/artwork/blob/master/socials/png/ build-to-scale.png
+|L'image est disponible dans le Github openSUSE artwork social folder https://github.com/openSUSE/artwork/blob/master/socials/png/ build-to-scale.png
 |-
 | 1 Day avant 17:30
 |@openSUSE Leap 15.1 improves the power of YaST; its improved Partitioner can directly format full disks w/o partition tables, create software MD RAIDs on top of full disks, create partitions within a software-defined MD RAID and many other combinations - http://bit.ly/2GvB1jh 
 |ddemaio
-|The image can be found in the openSUSE github artwork stickers folder https://github.com/openSUSE/artwork/blob/master/stickers/png/ yast.png
+|L'image est disponible dans le Github openSUSE artwork stickers folder https://github.com/openSUSE/artwork/blob/master/stickers/png/ yast.png
 |-
 | 1 Day avant 20:30
 |@KDE offers an LTS version and users of @openSUSE Leap know how good it is; Plasma 5.12 is so good, it will continue into Leap 15.1. Get the ultimate customization with KDE's Plasma 5.12 & Frameworks 5.55.0 - http://bit.ly/2ZxdDuz
@@ -47,7 +47,7 @@
 |09:00
 |The release of @openSUSE Leap 15.1 provides adopters a reliable server operating system for deploying IT services and the tools, languages and libraries to have fun - http://bit.ly/2Vpf1jA
 |ddemaio
-|The image can be found in the openSUSE github artwork posters folder https://github.com/openSUSE/artwork/blob/master/posters/ fun.png
+|L'image est disponible dans le Github openSUSE artwork posters folder https://github.com/openSUSE/artwork/blob/master/posters/ fun.png
 |-
 |10:30
 |Linode will have cloud images available for @openSUSE Leap 15.1 in just a few hours. JIT Cloud might become a thing - https://www.linode.com/
@@ -87,12 +87,12 @@
 |2 Day After 10:30
 |@openSUSE Leap 15.1 has downloadable Live Images for #GNOME & #KDE. Just click on the Live tab between the #JeOS and #Ports tab - https://software.opensuse.org/distributions/leap
 |ddemaio
-|The image can be found in the openSUSE github artwork logos team folder https://github.com/openSUSE/artwork/blob/master/logos/teams/heroes-team.png
+|L'image est disponible dans le Github openSUSE artwork logos team folder https://github.com/openSUSE/artwork/blob/master/logos/teams/heroes-team.png
 |-
 |3 Day After 10:30
 |System Administrators and small businesses can use @openSUSE Leap 15.1 for hosting web and mail servers. #DHCP #DNS #NFS. File and host sharing packages are also available - https://news.opensuse.org/
 |ddemaio
-|The image can be found in the openSUSE github artwork logo official folder https://github.com/openSUSE/artwork/blob/master/logos/official/logo-color.png
+|L'image est disponible dans le Github openSUSE artwork logo official folder https://github.com/openSUSE/artwork/blob/master/logos/official/logo-color.png
 |-
 |-
 |}
