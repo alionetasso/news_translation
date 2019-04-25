@@ -63,6 +63,22 @@ git clone git@git.volted.net:opensuse-fr/trad_opensuse.git
 git pull
 ```
 
+#### Ajouter un fichier
+
+Pour faire en sorte que Git puisse suivre les modifications d'un nouveau fichier, il faut:
+
+```
+git add chemin/vers/nouveau_fichier
+```
+
+#### Enregistrer les modifications
+
+Maintenant que vous avez modifier/ajouter, il faut valider tout ça (`commit` en anglais) et ajouter un message expliquant brièvement la modification:
+
+```
+git commit -am "mise à jour des liens dans la page xxx"
+```
+
 ### Pousser les modifications
 
 Vous pouvez ensuite rendre publique votre contribution via :
