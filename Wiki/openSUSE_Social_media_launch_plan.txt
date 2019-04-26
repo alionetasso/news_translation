@@ -52,27 +52,27 @@
 |sogal
 |-
 |17:00
-|There are more laptops you can order with @openSUSE Leap 15.1! Great laptops are available with slimbook.es. Order different keyboard layouts and your choice of Linux. Of course we would prefer if you ordered it with @openSUSE - https://slimbook.es/en/
+|Il existe d'autres portables disponibles avec @openSUSE Leap 15.1! Ces machines de grande qualité sont disponibles chez slimbook.es. Vous pouvez choisir entre différents types de claviers ou de systèmes Linux. Évidemment, on préférerai que vous choisissiez @openSUSE :) - https://slimbook.es/en/
 |sogal
 |-
 |1 Day After 10:30
-|Snapper's rollback is great, but did you know Snapper can now report the unique used space for each snapshot in @openSUSE Leap 15.1? Really, it can - http://bit.ly/2VjO9BL
+|Les rollback avec Snapper sont supers, mais saviez-vous que dans @openSUSE Leap 15.1, Snapper peut désormais afficher la taille de chacun des instantanés indépendament ? Si, si, c'est possible! - http://bit.ly/2VjO9BL
 |sogal
 |-
 |1 Day After 16:30
-|@SUSE supports migration from Leap to SLE, which gives system integrators developing on @openSUSE Leap 15.1 the possibility of moving to an enterprise version should you need it when the time comes - http://bit.ly/2ULUnWW 
+|@SUSE offre la possibilité de migrer depuis Leap vers SLE, ce qui permet aux intégrateurs développant sous @openSUSE Leap 15.1 la possibilité de passer sur une version entreprise le moment voulu - http://bit.ly/2ULUnWW 
 |sogal
 |-
 |2 Day After 10:30
-|@openSUSE Leap 15.1 has a system role selection that offers a classic server role and a Transactional Server role. Select one of the predefined use cases for a tailor-made system for your scenario - http://bit.ly/2Vpf1jA 
+|@openSUSE Leap 15.1 dispose d'une sélection de rôles système permet de choisir entre serveur classique et serveur Transactionnel. Optez pour l'un des types d'usage prédéfinis et bénéficiez d'un système sur-mesure pour vos usages - http://bit.ly/2Vpf1jA 
 |sogal
 |-
 |2 Day After 10:30
-|@openSUSE Leap 15.1 has downloadable Live Images for #GNOME & #KDE. Just click on the Live tab between the #JeOS and #Ports tab - https://software.opensuse.org/distributions/leap
+|@openSUSE Leap 15.1 dispose d'images Live disponibles pour #GNOME et #KDE. Il suffit de cliquer sur l'onglet Live situé entre #JeOS and #Portage - https://software.opensuse.org/distributions/leap
 |sogal
 |-
 |3 Day After 10:30
-|System Administrators and small businesses can use @openSUSE Leap 15.1 for hosting web and mail servers. #DHCP #DNS #NFS. File and host sharing packages are also available - https://news.opensuse.org/
+|Les administrateurs système et PME peuvent utiliser @openSUSE Leap 15.1 pour héberger leurs services de courriel et leurs sites web. #DHCP, #DNS et partages de fichiers #NFS sont également de la partie - https://news.opensuse.org/
 |sogal
 |-
 |-
