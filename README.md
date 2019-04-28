@@ -192,5 +192,4 @@ let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 " Appuyer sur 2 puis sur m immédiatement créer la conversion en html et affiche le rendu
 au BufNewFile,BufRead *.md map 2m :w<CR>:!pandoc -f markdown+hard_line_breaks -t html -s -o /tmp/vim-md-preview.html "%" ; firefox "file:///tmp/vim-md-preview.html" & <CR><CR>
 ```
-"Coucou Seb, ça marche !"
 
