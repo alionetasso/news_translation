@@ -1,0 +1,48 @@
+<!--- this is the SHORT list of highlight features only --->
+'''openSUSE Leap 15.1 est...'''
+
+{{Point here|[[File:Icon-wiki.png|48px|link=]]|'''Prête pour une migration de classe Entreprise si besoin'''
+<p>SUSE continue de prendre en charge la migration de Leap vers SLE, ce qui offre aux intégrateurs système développent sur Leap la possibilité de migrer vers la version Entreprise pour bénéficier de certifications, de déploiement massif ou encore de support à long terme. openSUSE Leap 15.1 ajoute de nombreux paquets communautaires au somment d'une pile centrale issue du Service Pack (SP) 1 de SUSE Linux Enterprise (SLE). Leap 15.1 partage une base commune avec SLE SP1 qui devrait être publiée dans les mois à venir. La première publication de Leap était la version 42.1 et été basée sur le premier Service Pack (SP1) de SLE 12. Trois ans plus tard, les versions enterprise de SUSE et communautaire de Leap sont désormais alignées sur, respectivementn, les publications 15 et 15.1.</p>
+}}
+{{Point here|[[Image:Icon-network.png|48px|link=]]|'''Prête pour les serveurs'''<br />
+<p>Cette publication dispose d'un sélecteur de rôle système offrant le choix entre un rôle de serveur classique ou bien de serveur transactionnel. Issu d'une contribution du project Kubic, ce rôle utilise les mises à jour transactionnelles et un système racine en lecture seule pour fournir à Leap 15.1 les bénéfices des mises à jour atomiques pour de multiples cas d'usage.</p>
+}}
+===Pour les développeurs===
+{{Point here|[[Image:Icon-network.png|48px|link=]]|'''Technologies de containerisation'''<br />
+<p>Leap 15.1 embarque plusieurs technologies de containerisation telles que Singularity, qui apporte les containers et la reproductibilité dans le monde du calcul scientique et du calcul haute-performance (HPC). Singularity est apparu pour la première fois dans Leap 42.3 et fournit des fonctionnalités permettant de construire des containers aussi minimaux que possible et de les exécuter en tant qu'environments mono-application. Un autre paquet présent dans Leap 15.1 est ''libcontainers-common'' qui permet la configuration des fichiers et pages de manuel partagés par les outils basés sur les bibliothèques du projet github.com/containers, tels que Buildah, CRI-0, Podman et Skopeo. Les containers et utilitaires Docker rendent la constuction et le déploiement applicatif rapides et aisés. Le paquet containerd, quant à lui, vous permet d'exécuter des containers conformément aux spécifications Open Container Initiative. Flatpak et AppImage, des utilitaires destinés au déploiement logiciel, à la gestion de paquets et à la virtualisation applicative, permettront aux développeurs de fournir à leurs utilisateurs des applications Linux s'exécutant isolément du reste de leur système.</p>
+}}
+{{Point here|[[Image:Icon-security.png|48px|link=]]|'''Langages et bibliothèques'''<br />
+<p>Leap propose à peu près tous les langages de programmation qu'un développeur pourrait choisir. Go, Rust, Haskell, C++, Ruby on Rails, Java, Python, Perl et bien d'autres. Leap inclut également de nombreuses bibliothèques de développement telles que libzypp, libvirt, glib, libstorage-ng et autres. Vous pouvez donc utiliser les bibliothèques partagées avec libvirt, l'ensemble de scripts shell de libtool-testsuite ou encore glib en tant que bibliothèque généraliste pour tout vos besoins en types de données, macros, conversions de type, traitement de chaînes de caractères ou de fichier, abstraction de boucle ou autre.</p>
+}}
+
+===Pour administrateurs système===
+
+{{Point here|[[Image:Icon-network.png|48px|link=]]|'''Gestion des systèmes'''<br /> [[File:Built-to-scale.png|thumb]]
+<p>System Administrators and small businesses can use Leap for hosting web and mail servers. Sysadmins can take full advantage of the network management protocol Dynamic Host Configuration Protocol (DHCP), allocate resources of the Domain Name System (DNS) or offer client computers access files over a Network File System (NFS). File and host sharing packages like NextCloud are also available and the groupware application suite Kopano is part of the official Leap 15.1 release. Existing Leap users should find updating to Leap 15.1 seamless coming from Leap 15.0. Upgrading from previous versions of Leap are also supported. It is also worth remembering that openSUSE Leap uses Delta RPMs for all [[Portal:Maintenance|maintenance updates]], ensuring that the long term bandwidth requirements for maintaining your Leap system are as small as possible. </p>
+<p>Les administrateurs système et les PME pourront utiliser Leap pour l'hébergement de leurs serveurs Web et messagerie. Les sysadmins pourront tirer parti des avantages du protocole de gestion du réseau DHCP (Dynamic Host Configuration Protocol), allouer des ressources DNS (Domain Name System) ou fournir aux machines clientes un accès aux partages par le réseau via NFS (Network File System). Les paquets de partages collaboratifs de fichiers tels que NextCloud sont également disponibles et la suite applicative de groupe, Kopano, sont désormais intégrés aux dépôts Leap. Les utilisateurs actuels de Leap pourront mettre à jour depuis Leap 15.0 de façon complètement transparente. La mise depuis des versions ultérieures de Leap est également possible. Il est également utile de rappeler qu'openSUSE Leap utilise Delta RPMs pour toutes les [[Portal:Maintenance|mises à jour de maintenance]], fournissant ainsi l'assurance qu'à long terme la bande passante nécessaire pour conserver vos systèmes Leap à jour sera aussi petite que possible.</p>
+}}
+{{Point here|[[Image:Icon-yast.png|48px|link=]]|'''Everything YaST'''
+<p>Some of the improvements to YaST have made for better management of services. Firewalld can be managed in text mode. There is a new User Interface to manage Firewalld, including AutoYaST support/advancements. System administrators will have better control with Salt formulas in the yast2-configuration-management module, and management of SSH keys per user will make sysadmins tasks much more pleasant. 
+
+YaST has an improved Partitioner, which can now directly format full disks without partition tables, create software MD RAIDs on top of full disks, create partitions within a software-defined MD RAID and many other combinations; AutoYaST supports all these combinations. The work the YaST team has put into the setup and configuration tool has a better default partitioning proposal in several scenarios like those with small disks or systems with several disks making solutions easier for Linux professionals.</p>
+}}
+
+===For Users===
+{{Point here|[[Image:Logo-kde.png|48px|link=]]|'''KDE'''<br />
+<p>This release continues to uses KDE’s Plasma 5.12 Long-Term-Support version and all its community supported tools and applications. Leap offers Live Images for the [[KDE]] desktop, and through PackageHub, users of SLE 15 SP1, can also use the Plasma 5.12 LTS of [[KDE]].</p>
+}}
+{{Point here|[[Image:Logo-gnome.png|48px|link=]]|'''GNOME'''<br />
+<p>Users of openSUSE Leap can choose their favorite desktop environment, configuration and setup. The GNOME 3.26 version in Leap 15.1 is the same as the version used in SLE 15 SP1, which uses Wayland by default. Leap offers Live Images for the [[GNOME]] desktop.</p>
+}}
+{{Point here|[[Image:Icon-desktop.png|48px|link=]]|'''Education, Research and Health'''<br />
+<p>The Leap distribution supports the health, science, research and developer communities with packages like GNU Health, which can help facilitate running the operations of a hospital and collecting vital patient data, and QGIS, which allows researchers to create, edit, visualise, analyse and publish geospatial information. </p>
+}}
+{{Point here|[[Image:Icon-wiki.png|48px|link=]]|'''Internationalization'''<br />
+<p>This openSUSE releases use [https://l10n.opensuse.org/ Weblate] to coordinate the translation of openSUSE into more than 50 languages. openSUSE’s Weblate interface enables everyone (from dedicated translators to casual contributors) to take part in the process and makes it possible to coordinate the translations of openSUSE with the ones for SUSE Enterprise Linux, boosting collaboration between community and enterprise.</p>
+}}
+
+<noinclude>
+[[Category:15.1]]
+[[pl:Portal:15.1/Features]]
+</noinclude>
+
