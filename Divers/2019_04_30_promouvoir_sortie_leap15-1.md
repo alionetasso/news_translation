@@ -4,12 +4,12 @@ La sortie d'[openSUSE Leap 15.1](http://en.opensuse.org/Portal:15.1) est prévue
 ##Pour votre blog et vos comptes de réseaux sociaux
 Si vous voulez décorer votre blog ou votre site web avec une jolie bannière Leap 15.1, prenez-en une :
 
-Différents compteurs |taille
----------------------|---------------------
-![petit](small.png)|130×130
-![moyen](medium.png)|256×256
-![grand](large1-300x300.png)|400×400
-![large](wide.png)|600×100
+Images| taille
+------|-------
+<a href="https://counter.opensuse.org/link/"><img src="http://countdown.opensuse.org/small.png" border="0"/></a>|130x130
+<a href="https://counter.opensuse.org/link/"><img src="http://countdown.opensuse.org/medium.png" border="0"/></a>|256x256
+<a href="https://counter.opensuse.org/link/"><img src="http://countdown.opensuse.org/large.png" border="0"/></a>|400x400
+<a href="https://counter.opensuse.org/link/"><img src="http://countdown.opensuse.org/wide.png" border="0"/></a>|600x100
 
 
 ##Compte à rebours de la sortie de la distribution
