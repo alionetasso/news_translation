@@ -17,7 +17,7 @@ Images| taille
 Vous pouvez ajouter un compteur indiquant le compte à rebours de la sortie de la  version d'openSUSE 15.1 à votre site Web dans différentes tailles en incluant le code html suivant dans votre blog :
 
 ```
-    <a href="http://en.opensuse.org/Portal:15.1"><img src="http://counter.opensuse.org/medium.png" border="0"/>></a><br/>
+    <a href="http://fr.opensuse.org/Portal:15.1"><img src="http://counter.opensuse.org/medium.png" border="0"/></a><br/>
 ```
 
 la taille du compteur peut-être définie à "moyen" ; elle peut aussi l'être à "petit" ou "grand" et nous avons aussi "large" pour une bannière.
