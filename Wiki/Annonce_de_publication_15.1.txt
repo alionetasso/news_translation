@@ -1,21 +1,27 @@
-openSUSE Community Releases Leap 15.1 Version
-Leap 15.1 Supports More Hardware, Drivers, Enhances Installation
+{{ Page à traduire }}
+La communauté openSUSE a le plaisir d'annonce la publication de la version 15.1 de Leap
+Leap 15.1 améliore la prise en charge de matériels et de leur pilote ainsi que le processus d'installation
 
-[[Release_announcement_15.1|EN]] / [[:de:Release-Ankündigung_15.1|DE]] / [[:it:Annuncio_di_rilascio_15.1|IT]] / [[:es:Anuncio_publicaci%C3%B3n_15.1|ES]] / [[:nl:Release_Aankondiging_15.1|NL]] / [[:zh:发行公告_15.1|ZH]]
+[[:en:Release_announcement_15.1|EN]] / [[:de:Release-Ankündigung_15.1|DE]] / [[:it:Annuncio_di_rilascio_15.1|IT]] / [[:es:Anuncio_publicaci%C3%B3n_15.1|ES]] / [[:nl:Release_Aankondiging_15.1|NL]] / [[:zh:发行公告_15.1|ZH]] / [[:fr:Annonce_de_publication_15.1|FR]]
 
 22/05/2019
 
-Today's release of the openSUSE Leap 15.1 brings professional users, entrepreneurs and Independent Software Vendors updated support for modern hardware.
+La publication, ce jour, d'openSUSE Leap 15.1 apporte une prise en charge du matériel améliorée à tous les utilisateurs professionnels, aux entrepreneurs ainsi qu'aux éditeurs logiciels indépendants.
 
-The release of Leap 15.1 improves YaST functionality and the installer. 
+Leap 15.1 enrichit les fonctionnalités de YaST et de l'installeur.
 
-"Continuity and stability are what we are providing users with Leap 15.1," said Haris Sehic, a member of the openSUSE community. "With Leap 15, we have introduced a huge number of new features and innovations in security, performance and tool/desktop area. Having in mind how stable, efficient and reliable Leap has become, with this release, we managed to keep the level of quality to the point that our private and Small Business users can, actually more than ever, profit from the enterprise background of an openSUSE Linux Distribution. Let's continue to have a lot of fun!"
+"Continuité et stabilité sont les deux points forts que nous apportons à nos utilisateurs avec Leap 15.1", a déclaré Haris Sehic, membre de la communauté openSUSE. "Avec Leap 15.1, nous avons introduit un grand nombre de nouvelles fonctionnalités et des innovations en termes de sécurité, performance ainsi que côté environnement de bureau et outils. En gardant à l'esprit le niveau de stabilité, d'efficience et de fiabilité qu'a atteint Leap, nous avons réussi dans cette nouvelle publication à conserver ce niveau de qualité de telle sorte que nos utilisateurs particuliers et professionnels en PME pourront, plus que jamais, profiter de la base « entreprise » d'une distribution Linux openSUSE. Continuons donc de nous amuser !"
 
 Leap releases are scalable and both the desktop and server are equally important for professional’s workloads, which is reflected in the installation menu as well as the amount of packages Leap offers and hardware it supports. Leap is well suited and prepared for usage as a Virtual Machine (VM) or container guest, allowing professional users to efficiently run network services no matter whether it’s a single server or a data center.
+Les versions de Leap s'adaptent bien aux mises à l'échelle et les usages en tant que station de travail ou que serveur sont d'égales importance dans les flux de travail professionnel. Cette importance se retrouve dans le menu d'installation ainsi que dans la quantité de paquets que Leap met à disposition ou encore le nombre de matériels pris en charge. Leap se prête bien à une utilisation en tant que machine virtuelle (VM) ou container, permettant aux utilisateurs professionnels d'opérer efficacement des services réseaux que ce soit sur un seul serveur ou dans un data-center.
 
 Professional users, system administrators and developers can have confidence in the reliability of the Leap distribution based on its development process to deliver a modern, secure, maintained and highly tested distribution using the open-source build system unique to both SUSE and openSUSE, which is the Open Build Service, along with the automated testing of openQA.
+Les professionnels, les administrateurs système et les développeurs peuvent avoir toute confiance en la fiabilité de la distribution Leap. En effet, son processus de développement utilise des outils open-source communs à SUSE et openSUSE, à savoir l'Open Build Service et les tests automatisés via openQA, afin de fournir une distribution moderne, sécurisé et longuement testée.
 
 ====  What’s New  ====
+==== Quoi de neuf ====
+
+
 
 An entirely new graphics stack update is available for this stable community- and enterprise-based open-source GNU/Linux distribution. Graphics hardware supported by the 4.19 Linux Kernel were backported for the release of Leap 15.1, which uses the 4.12 Linux Kernel and supports additional graphics drivers for Graphics Processing Unit (GPU) and improved support for AMD Vega chipset.
 
@@ -99,4 +105,6 @@ you can participate at:
 https://rootco.de/2016-04-03-opensuse-and-you/
 
 The openSUSE Project is a worldwide community that promotes the use of Linux everywhere. It creates two of the world’s best Linux distributions, the Tumbleweed rolling-release, and Leap, the hybrid enterprise-community distribution. openSUSE is continuously working together in an open, transparent and friendly manner as part of the worldwide Free and Open Source Software community. The project is controlled by its community and relies on the contributions of individuals, working as testers, writers, translators, usability experts, artists and ambassadors or developers. The project embraces a wide variety of technology, people with different levels of expertise, speaking different languages and having different cultural backgrounds. Learn more about it on opensuse.org
+
+[[Portal:15.1]]
 
