@@ -18,18 +18,15 @@ Les versions de Leap s'adaptent bien aux mises à l'échelle et les usages en ta
 Professional users, system administrators and developers can have confidence in the reliability of the Leap distribution based on its development process to deliver a modern, secure, maintained and highly tested distribution using the open-source build system unique to both SUSE and openSUSE, which is the Open Build Service, along with the automated testing of openQA.
 Les professionnels, les administrateurs système et les développeurs peuvent avoir toute confiance en la fiabilité de la distribution Leap. En effet, son processus de développement utilise des outils open-source communs à SUSE et openSUSE, à savoir l'Open Build Service et les tests automatisés via openQA, afin de fournir une distribution moderne, sécurisé et longuement testée.
 
-====  What’s New  ====
 ==== Quoi de neuf ====
 
+Une toute nouvelle pile graphique est disponible dans cette nouvelle distribution GNU/Linux communautaire basée sur une version entreprise. La prise en charge matérielle graphique du noyau Linux 4.19 a été rétroportée pour la sortie de 15.1, qui utilise le noyau Linux 4.12 et prend ainsi en charge de nouveau pilotes graphiques pour cartes graphiques (Graphics Processing Unit ou GPU) et améliore la gestion des puces AMD Vega.
 
+La virtualisation des cartes graphiques est devenue de plus en plus courante chez les fabriquants tels qu'AMD, Intel ou Nvidia et Leap 15.1 permet d'utiliser ces implémentations et les prend en charge au sein d'environnements virtualisés ou dans le cloud.
 
-An entirely new graphics stack update is available for this stable community- and enterprise-based open-source GNU/Linux distribution. Graphics hardware supported by the 4.19 Linux Kernel were backported for the release of Leap 15.1, which uses the 4.12 Linux Kernel and supports additional graphics drivers for Graphics Processing Unit (GPU) and improved support for AMD Vega chipset.
+Leap 15.1 utilise à présent Network Manager par défaut, à la fois sur les ordinateurs fixes et portables ; auparavant ce n'était le cas que pour les portables. Les installations destinées aux serveurs continueront d'utiliser Wicked, le gestionnaire de configuration réseau avancé d'openSUSE. Cette version ajoute, de plus, quelques pilotes WiFi populaires destinés à des puces sans-fil modernes. Enfin, les fichiers /etc/resolv.conf, yp.conf et d'autres sont désormais de simples liens vers des fichiers dans /run et sont gérés par netconfig, ceci s'applique aussi bien à Wicked qu'à Network Manager.
 
-GPU virtualization has become quite popular among vendors like AMD, Intel and Nvidia and Leap 15.1 helps to delivers these implementation and support solutions for virtualized and cloud environments.  
-
-Leap 15.1 will now use Network Manager by default for both laptops and desktops - previously only laptops defaulted to Network Manager. Server installations will continue to default to Wicked, the openSUSE advanced network configuration system. The release adds a few popular WiFi drivers for more modern wireless chipsets. A change that applies to both Wicked and Network Manager is that /etc/resolv.conf, yp.conf and some other files are a link to a file in /run and are managed by netconfig. 
-
-The management of system services in YaST has been revamped to take advantage of many of the features offered by systemd in that area. 
+La gestion des services depuis YaST a été réorganisée afin de tirer le meilleur parti des nombreuses fonctionnalités offertes par systemd en la matière.
 
 ==== Improved Setup and Configuration ====
 
