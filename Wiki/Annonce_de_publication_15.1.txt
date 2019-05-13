@@ -48,11 +48,13 @@ There is a YaST testing option for users to test maintenance updates before bein
 YaST dispose d'une option ''testing'' permettant aux utilisateurs de tester les mises à jour de maintenance avant leur publication. Le dépôt testing fournit ainsi ces mises à jour 7 jours avant qu'elles ne soient rendues disponibles dans le dépôt des mises à jour de maintenance.
 
 Minor versions of the Leap 15 series have about an 18-month life cycle of maintenance and security as minor releases come roughly once a year. Users of openSUSE Leap, 15.0, which was released on May 25, 2018, should upgrade to Leap 15.1 within the next 6 months. The 15 series of Leap is expected to achieve an estimated 36 months of maintenance and security updates. 
-Les versions mineures de la série Leap 15 ont un cycle de vie 18 mois, durant lesquels elles bénéficient des mises à jour de maintenance et de sécurité. Une nouvelle version mineure est publiée globalement une fois par an. Les utilisateurs d'openSUSE Leap 15.0, publiée en mai 2018 devront donc mettre à jour vers la 15.1 dans les 6 mois à venir. La série Leap 15 TODO
+Les versions mineures de la série Leap 15 ont un cycle de vie 18 mois, durant lesquels elles bénéficient des mises à jour de maintenance et de sécurité. Une nouvelle version mineure est publiée globalement une fois par an. Les utilisateurs d'openSUSE Leap 15.0, publiée en mai 2018 devront donc mettre à jour vers la 15.1 dans les 6 mois à venir. La série Leap 15 recevra les mises à jour de maintenance et de sécurité durant 36 mois.
 
 ==== Images, Deployment and Hardware with Linode, Slimbooks and Tuxedo ====
+==== Images, déploiement et matériel avec Linode, Slimbooks et Tuxedo ====
 
 Leap 15.1 continues to add more hardware providers as Slimbook and TUXEDO Computers will both offer the option of purchasing hardware with Leap 15.1 preinstalled. Linode cloud images of Leap are available today and ready for all infrastructure needs. 
+Leap 15.1 continue d'attirer de plus en plus de fabriquants de matériel, en effet Slimbook et TUXEDO Computers vont tous deux offrir la possibilité d'acheter des machines avec Leap 15.1 préinstallée. Les images cloud de Leap sont dès maintenant disponibles chez Linode et prêtes pour tous vos besoins d'infrastructure.
 
 TUXEDO Computers devices were an important part of the openSUSE reference tests of Leap 15.1.
 
