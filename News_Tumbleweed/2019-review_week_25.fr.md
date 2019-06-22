@@ -2,7 +2,7 @@ Les nouveaux Node.js LTS, débogueur GNU et libvirt débarquent dans les instant
 ------------------------------------------------------------------------------
 
 ![](https://news.opensuse.org/wp-content/uploads/2016/09/vector-chameleon-213x300.png)
-Les trois instantanés [openSUSE](https://www.opensuse.org/) [Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) publiés cette semaine ont mis à jour certains packages clés pour les utilisateurs de cette version en publication continue.
+Les trois instantanés [openSUSE](https://www.opensuse.org/) [Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) publiés cette semaine ont mis à jour certains paquets clés pour les utilisateurs de cette version en publication continue.
 
 Un de ces paquets clés était une mise à jour du [débogueur GNU](https://www.gnu.org/s/gdb/), **gdb 8.3**, publié dans l'instantané [20190607](https://lists.opensuse.org/opensuse-factory/2019-06/msg00115.html). Le débogueur a activé les tests *ada* sur les plate-formes [ppc64le](https://en.wikipedia.org/wiki/Ppc64) et [riscv64](https://en.wikipedia.org/wiki/RISC-V). Les versions *multitarget* pour [riscv64](https://en.wikipedia.org/wiki/RISC-V) ont également été activées.
 L'instantané a également ajouté les tests unitaires pour [Logical Volume Manager](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)) (LVM) sur disque modulaire (MD) avec la mise à jour de **libstorage-ng 4.1.127**.
@@ -11,7 +11,7 @@ L’éditeur de texte [vim](https://www.vim.org/) 8.1.1467 présentait de multip
 
 Les deux instantanés précédents ont enregistré une note exceptionnelle exceptionnelle de 98 selon le relecteur d’instantané (http://review.tumbleweed.boombatower.com/).
 
-L'instantané [20190606](https://lists.opensuse.org/opensuse-factory/2019-06/msg00104.html) n'a mis à jour que deux paquet.
+L'instantané [20190606](https://lists.opensuse.org/opensuse-factory/2019-06/msg00104.html) n'a mis à jour que deux paquets.
 Le paquet [nodejs10](https://nodejs.org/) a mis en place une nouvelle version amont à support à long terme (LTS) avec [nodejs10](https://nodejs.org/) 10.16.0 et une mise à jour des sources d'[openssl](https://www.openssl.org/) et [libuv](https://github.com/libuv/libuv) en version 1.28.0.
 L'autre mise à jour importante du paquet dans l'instantané était [xfdesktop](https://linux.die.net/man/1/xfdesktop) en 4.12.5; ce package pour [Xfce](https://www.xfce.org/) 4  a corrigé la taille des icônes dans les paramètres, réinitialisé l'ordre des icônes du bureau et corrigé une [fuite de timer](https://bugzilla.xfce.org /show_bug.cgi?id=13887).
 
