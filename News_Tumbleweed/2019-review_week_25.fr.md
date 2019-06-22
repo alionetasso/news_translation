@@ -2,7 +2,7 @@ Les nouveaux Node.js LTS, débogueur GNU et libvirt débarquent dans les instant
 ------------------------------------------------------------------------------
 
 ![](https://news.opensuse.org/wp-content/uploads/2016/09/vector-chameleon-213x300.png)
-Les trois instantanés [openSUSE](https: //www.opensuse .org /) [Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) publiés cette semaine ont mis à jour certains packages clés pour les utilisateurs de cette version en publication continue.
+Les trois instantanés [openSUSE](https://www.opensuse.org/) [Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) publiés cette semaine ont mis à jour certains packages clés pour les utilisateurs de cette version en publication continue.
 
 Un de ces paquets clés était une mise à jour du [débogueur GNU](https://www.gnu.org/s/gdb/), **gdb 8.3**, publié dans l'instantané [20190607](https://lists.opensuse.org/opensuse-factory/2019-06/msg00115.html). Le débogueur a activé les tests *ada* sur les plate-formes [ppc64le](https://en.wikipedia.org/wiki/Ppc64) et [riscv64](https://en.wikipedia.org/wiki/RISC-V). Les versions *multitarget* pour [riscv64](https://en.wikipedia.org/wiki/RISC-V) ont également été activées.
 L'instantané a également ajouté les tests unitaires pour [Logical Volume Manager](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)) (LVM) sur disque modulaire (MD) avec la mise à jour de **libstorage-ng 4.1.127**.
