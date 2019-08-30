@@ -4,7 +4,7 @@ Après un long cycle de développement (4 ans !), tous les composants et applica
 
 Parmi les principales nouveautés et améliorations, le gestionnaire de fenêtres xfwm4 a finalement réussi à prendre en charge VSync, HiDPI, le matériel GLX et diverses améliorations du compositeur.
 
-Vous pouvez jeter un coup d'oeil aux nouvelles fonctionnalités de la [présentation officielle de Xfce 4.14](https://www.xfce.org/about/tour) et à [l'annonce officielle de sa sortie](https://www.xfce.org/about/news/?post=1565568000).
+Vous pouvez jeter un coup d'oeil aux nouvelles fonctionnalités dans la [présentation officielle de Xfce 4.14](https://www.xfce.org/about/tour) et dans  [l'annonce officielle de sa sortie](https://www.xfce.org/about/news/?post=1565568000).
 
 ## Modifications openSUSE
 
@@ -31,6 +31,6 @@ Un bravo en particulier à Carson Black qui a réalisé le travail et maintient 
 
 Un grand merci à tous ceux qui se sont impliqués dans cette version ! 
 
-Plus d'informations sur Xfce sur openSUSE sont disponibles sur [https://en.opensuse.org/Portal:Xfce](https://en.opensuse.org/Portal:Xfce).
+Pour plus d'informations au sujet de Xfce sur openSUSE, voir [https://en.opensuse.org/Portal:Xfce](https://en.opensuse.org/Portal:Xfce).
 
 [Source de l'article](https://news.opensuse.org/2019/08/23/xfce-4-14-lands-in-tumbleweed/)
