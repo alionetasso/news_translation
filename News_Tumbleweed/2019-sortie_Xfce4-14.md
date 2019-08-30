@@ -1,4 +1,7 @@
+# Xfce 4.14 est sorti et déjà dans Tumbleweed
 L'équipe d'openSUSE Xfce est heureuse d'annoncer que la version 4.14 tant attendue de Xfce a été publiée pour [Tumbleweed](https://fr.opensuse.org/Portal:Tumbleweed).
+
+![banniere-Xfce-4.14](2019-banniere-Xfce4-14-300x75.png)
 
 Après un long cycle de développement (4 ans !), tous les composants et applications de base ont été portés sur GTK 3.
 
@@ -12,16 +15,13 @@ Pour openSUSE, nous avons continué à peaufiner l'expérience par défaut en aj
 
 Nous :
 
-- Passage sur xfce4-screensaver, le nouveau screenlocker Xfce, de xscreensaver
+  * Passage sur xfce4-screensaver, le nouveau screenlocker Xfce, de xscreensaver
+  * Ajout des profils xfce4-panel, un outil pour sauvegarder et restaurer la configuration de votre panneau ainsi que les presets de mise en page.
+  * Ajout de mugshot, un outil pour entrer facilement des informations personnelles et un avatar utilisateur. Il est intégré dans le Whisker Menu
+  * Ajout de lightdm-gtk-greeter-settings, un outil pour configurer facilement LightDM
+  * Ajout de gnome-disk-utility, un outil de gestion de disque qui vous permet de partitionner des disques et de monter des fichiers ISO
 
-- Ajout des profils xfce4-panel, un outil pour sauvegarder et restaurer la configuration de votre panneau ainsi que les presets de mise en page.
-
-- Ajouté mugshot, un outil pour entrer facilement des informations personnelles et un avatar utilisateur. Il est intégré dans le Whisker Menu
-
-- Ajouté lightdm-gtk-greeter-settings, un outil pour configurer facilement LightDM
-
-- Ajouté gnome-disk-utility, un outil de gestion de disque qui vous permet de partitionner des disques et de monter des fichiers ISO
-Nouveau thème GTK
+## Nouveau thème GTK
 
 Dans le processus de mise à jour vers Xfce 4.14, nous avons décidé que nous voulions avoir notre propre thème GTK. C'est ainsi qu'est né [Greybird Geeko](https://github.com/shimmerproject/Greybird-Geeko).
 
