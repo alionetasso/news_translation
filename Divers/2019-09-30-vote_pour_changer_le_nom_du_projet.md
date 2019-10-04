@@ -2,7 +2,7 @@
 
 ![Alt text](2019-09-30_vote_nom_projet.jpg)
 
-Suite aux discussions sur le "*changement de logo et de nom du projet openSUSE*" qui a commencé en juin sur la liste de diffusion du projet openSUSE[1], le comité des élections a reçu une demande du conseil d'administration de organiser un vote où les membres d'openSUSE pourront indiquer s'ils sont pour ou contre ce changement de nom de projet.
+Suite aux discussions sur le "*changement de logo et de nom du projet openSUSE*" qui a commencé en juin sur la liste de diffusion du projet openSUSE[1], le comité des élections a reçu une demande du conseil d'administration afin d'organiser un vote où les membres d'openSUSE pourront indiquer s'ils sont pour ou contre ce changement de nom de projet.
 
 Le vote commencera le 10 octobre et se terminera le 31 octobre, ce qui donnera aux membres trois semaines pour voter. Les résultats seront annoncés le 1er novembre.
 
@@ -12,10 +12,10 @@ La procédure de vote sera similaire à celle de l'élection du conseil d'admini
 
 Les membres qui souhaitent changer l'adresse cible de leur alias e-mail peuvent le faire en créant un ticket. Cela peut être fait en envoyant la demande de changement à [admin@opensuse.org](mailto:admin@opensuse.org)
 
-**Ceux qui souhaitent devenir membre d'openSUSE peuvent faire une demande d'adhésion en suivant les instructions spécifiées sur la page openSUSE Wiki[2].**
+**Ceux qui souhaitent devenir membre d'openSUSE peuvent faire une demande d'adhésion en suivant les instructions spécifiées sur la page du Wiki openSUSE [2].**
 
 On peut communiquer avec le Comité des élections à l'adresse election-officials@opensuse.org
 
 [1] [https://lists.opensuse.org/opensuse-project/2019-06/](https://lists.opensuse.org/opensuse-project/2019-06/)
 
-[2] [https://en.opensuse.org/openSUSE:Members](https://fr.opensuse.org/openSUSE:Membres)
+[2] [https://fr.opensuse.org/openSUSE:Membres](https://fr.opensuse.org/openSUSE:Membres)
