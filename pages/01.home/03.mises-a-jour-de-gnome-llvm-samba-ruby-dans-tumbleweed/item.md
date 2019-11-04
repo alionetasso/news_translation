@@ -3,6 +3,8 @@ title: 'Mises à jour de GNOME, LLVM, Samba, Ruby dans Tumbleweed'
 blog_url: /
 show_sidebar: true
 show_breadcrumbs: true
+feed:
+    limit: 10
 content:
     items: '- ''@self.children'''
     limit: '15'
