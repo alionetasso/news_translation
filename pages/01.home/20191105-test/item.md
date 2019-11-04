@@ -2,6 +2,8 @@
 title: 'Les électeurs choisissent deux nouveaux membres du conseil et un actuel titulaire pour le conseil openSUSE'
 published: true
 visible: true
+feed:
+    limit: 10
 ---
 
 16 février 2019 par [Fraser Bell](https://news.opensuse.org/author/fraser_bell/)
