@@ -1,0 +1,80 @@
+=====French=====
+'''Please translate this table, only the twitter and facebook/G+ tables with the final messages'''
+{| class="wikitable"
+!colspan="2"|French Base messages
+|-
+!Time (UTC)
+! Message
+! Person Who will Post
+|-
+| 3 Days Before 16:30
+|@openSUSE Leap 15.1 offre aux utilisateurs professionnels, aux entrepreneurs et éditeurs de logiciels une mise à Day système simple et transparente assurant la continuité des opérations d'importantes infrastructures supportant de lourdes charges de travail - http://bit.ly/2DxMq1w 
+|sogal
+|-
+| 2 Days Before 10:30
+|Le noyau Linux 4.12 d'@openSUSE Leap 15.1 a reçu tous les rétroportages nécessaires du noyau 4.19 afin de prendre en charge de nouveau matériel graphique. Leap bénéficie du même noyau Linux Entreprise utilisé par SUSE - http://bit.ly/2Vpf1jA 
+|sogal
+|-
+| 1 Day Before 10:00
+|Les administrateurs système utilisant @openSUSE Leap 15.1 bénéficient d'un meilleur contrôle sur leurs machines grâce aux formulas @Salt intégrées au module yast2-configuration-management. De même, la gestion des clés SSH par utilisateur facilitera la vie des sysadmins - http://bit.ly/2PsL6S7  
+|sogal
+|-
+|1 Day Before 13:00
+|@openSUSE Leap 15.1 dispose de Kopano dans ses dépôts officiels et peut s'intégrer facilement avec Kopano WebApp, les clients Push et d'autres services mail. Il est temps d'utiliser une alternative à la vache à lait 365 - http://bit.ly/2W56RKt 
+|sogal
+|-
+|1 Day Before 16:30
+|La virtualisation des GPU est de plus en plus populaire chez les fabriquants tels qu'AMD, Intel ou Nvidia, @openSUSE permet de bénéficier de ces implémentations grâce à des solutions pour environements virtualisés ou dans le cloud - http://bit.ly/2Dy8Gs9 
+|sogal
+|-
+| 1 Day Before 17:30
+|@openSUSE Leap 15.1 accroit encore les possibilités de YaST ; son partitionneur amélioré peut formater directement des disques sans partition, créer des RAID logiciel MD sur la base de disques entiers, créer des partitions à l'intérieur de RAID MD logiciel et gérer de nombreuses autres combinaisons - http://bit.ly/2GvB1jh 
+|sogal
+|-
+| 1 Day Before 20:30
+|@KDE fournit une version LTS et les usagers d'@openSUSE Leap en connaissant la valeur ; Plasma 5.12 est d'une telle qualité qu'il sera aussi présent dans Leap 15.1. Offrez-vous des possibilités de personnalisation sans fin avec KDE Plasma 5.12 & Frameworks 5.55.0 - http://bit.ly/2ZxdDuz
+|sogal
+|-
+|09:00
+| La publication d'@openSUSE Leap 15.1 offre à ses usagers un système d'exploitation pour serveur fiable afin de déployer les services informatisés ainsi que tous les outils, langages et bibliothèques nécessaires - http://bit.ly/2Vpf1jA
+|sogal
+|-
+|10:30
+|Linode disposera des dernières images d'@openSUSE Leap 15.1 pour le cloud d'ici quelques heures. Et le Cloud "Just In Time" devient réalité ! - https://www.linode.com/
+|sogal
+|-
+|12:00 UTC
+|@openSUSE Leap 15.1 est maintenant disponible. Retweetez et téléchargez là sur https://software.opensuse.org/distributions/leap
+|sogal
+|-
+|16:30
+|Vous voulez vous offrir l'un des meilleurs portables du monde avec @openSUSE Leap 15.1 préinstallé ? Vous pouvez commander dès maintenant un InfinityBook Pro avec Leap 15.1 sur www.tuxedocomputers.com
+|sogal
+|-
+|17:00
+|Il existe d'autres portables disponibles avec @openSUSE Leap 15.1! Ces machines de grande qualité sont disponibles chez slimbook.es. Vous pouvez choisir entre différents types de claviers ou de systèmes Linux. Évidemment, on préférerai que vous choisissiez @openSUSE :) - https://slimbook.es/en/
+|sogal
+|-
+|1 Day After 10:30
+|Les rollback avec Snapper sont supers, mais saviez-vous que dans @openSUSE Leap 15.1, Snapper peut désormais afficher la taille de chacun des instantanés indépendament ? Si, si, c'est possible! - http://bit.ly/2VjO9BL
+|sogal
+|-
+|1 Day After 16:30
+|@SUSE offre la possibilité de migrer depuis Leap vers SLE, ce qui permet aux intégrateurs développant sous @openSUSE Leap 15.1 la possibilité de passer sur une version entreprise le moment voulu - http://bit.ly/2ULUnWW 
+|sogal
+|-
+|2 Day After 10:30
+|@openSUSE Leap 15.1 dispose d'une sélection de rôles système permet de choisir entre serveur classique et serveur Transactionnel. Optez pour l'un des types d'usage prédéfinis et bénéficiez d'un système sur-mesure pour vos usages - http://bit.ly/2Vpf1jA 
+|sogal
+|-
+|2 Day After 10:30
+|@openSUSE Leap 15.1 dispose d'images Live disponibles pour #GNOME et #KDE. Il suffit de cliquer sur l'onglet Live situé entre #JeOS and #Portage - https://software.opensuse.org/distributions/leap
+|sogal
+|-
+|3 Day After 10:30
+|Les administrateurs système et PME peuvent utiliser @openSUSE Leap 15.1 pour héberger leurs services de courriel et leurs sites web. #DHCP, #DNS et partages de fichiers #NFS sont également de la partie - https://news.opensuse.org/
+|sogal
+|-
+|-
+|}
+

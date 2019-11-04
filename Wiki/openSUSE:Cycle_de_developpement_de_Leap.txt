@@ -1,0 +1,113 @@
+{{Leap navbar}}
+
+{{Intro|Cet article vise à vous donner un aperçu des concepts et cycle de développment de [[Portal:Leap|openSUSE Leap]]. Son objectif est de présenter les différentes étapes de la création de Leap depuis la base fournie par SLE (SUSE Linux Enterprise) et la façon dont une distribution est assemblée.
+
+== Concepts et étapes du développment d'openSUSE Leap ==
+
+* toutes les mises à jour de maintenance de Leap version 1 sont automatiquement intégrées (tout au long du cycle et ce jusqu'à ce que la version soit figée)
+
+* toutes les mises à jour provenant de SLE15SPx sont automatiquement intégrées (tout au long du cycle)
+
+* tout les paquets provenant de Factory doivent être proposés à nouveau par un mainteneur si une mise à jour doit être incluse dans la prochaine version de Leap. Le public visé pour Leap et son processus de mise à jour transparent doit être pris en compte. Pour prendre cela en charge et s'assurer qu'aucun détail n'est omis, un outil automatisé va vérifier, tout au long du processus de développment, que l'ensemble des paquets présents dans Factory sont issus de constructions conformes à la version cible de Leap et seront construits de façon à ce que les futures demandes d"intégrations puissent être acceptées facilement par le mainteneur. Les requêtes n'ayant pas été acceptées ne seront évidemment pas incluses.
+
+* durant toute cette période, les propositions d'inclusion depuis Factory vers Leap seront étudiées si le paquet construit correctement et ne provient pas originellement de SLE15. Les requêtes doivent être effectuées par le mainteneur, à défaut celui-ci doit approuver la mise à jour.
+
+* dans le cas où un paquet doit être transféré depuis SLE15 vers Factory ou l'inverse, un processus de révision par le group ''leap-reviewers'' sera déclenché.
+
+* les paquets ''forkés'', pour diverses raisons, depuis SLE15 _et_ Factory doivent être revus s'il y a lieu de penser qu'ils pourraient être intégrés en retour à SLE15 ou à Factory.
+
+* les nouveaux paquets dans SLE15 ou Factory doivent être revus avant inclusion ; des intégrations via des outils automatisés peuvent avoir lieu.
+
+Les outils OBS utilisés pour gérer certaines étapes ci-dessus peuvent être trouvés ici :https://github.com/openSUSE/osc-plugin-factory
+
+== Conception des versions de Leap ==
+
+Vie quotidienne de la conception d'une publication
+
+=== Vérification des files d'attente ===
+
+https://build.opensuse.org/project/staging_projects/openSUSE:Leap:15.1
+
+    osc staging -p openSUSE:Leap:15.1 list
+    osc staging -p openSUSE:Leap:15.1 check
+    osc staging -p openSUSE:Leap:15.1 select X package ...
+    osc staging -p openSUSE:Leap:15.1 unselect -m "message" package ...
+
+* procéder au déboggage des échecs
+* vérifier les revues en cours, et prendre contact avec l'équipe en charge de celle-ci si besoin, vérifier ce que legal-auto est en train de faire, que repo-checker n'est pas bloqué, etc.
+* s'assurer que les paquets sont groupés de façon logique
+* déselectionner et marquer comme ignorées les requêtes ne pouvant pas être mises en file d'attente dans l'immédiat
+* décliner les requêtes ne pouvant être gérées
+
+=== S'assurer que les voyants sont au vert ===
+
+https://build.opensuse.org/project/dashboard/openSUSE:Leap:15.1
+
+* diagnostiquer les échecs de construction
+* relancer les constructions en échec
+* ajouter ou supprimer des paquets si besoin
+
+=== Vérifier les erreurs de construction et les dépendances insolvables dans le projet cible ===
+
+https://build.opensuse.org/project/show/openSUSE:Leap:15.1,
+https://build.opensuse.org/project/status/openSUSE:Leap:15.1
+
+* diagnostiquer les causes
+* remplir un rapport de bogue ou contacter les mainteneurs
+* relancer les constructions en cas d'erreurs aléatoires
+
+=== Mettre tous les voyants d'openQA au vert ===
+
+https://openqa.opensuse.org/group_overview/50
+
+* déboggage des échecs
+* remplir un rapport de bogue
+* redémarrer tous les travaux ayant échoués du fait d'erreurs remontées par openQA
+* ajouter le drapeau ''@ttm ignore'' aux échecs qui peuvent être ignorés (après création d'un rapport de bogue)
+
+=== Vérifier les rapports du vérificateur de dépôts ===
+
+repo_checker vérifie les paquets ayant des dépendances non installables
+https://build.opensuse.org/package/view_file/openSUSE:Leap:15.1:Staging/dashboard/repo_checker
+
+* diagnostiquer les erreurs
+* prendre contact avec les mainteneurs ou remplir un rapport de bogue
+
+=== Vérifier les files d'attente ADI ===
+
+''Le paquet osc-plugin-staging est nécessaire pour utiliser cette commande osc.''
+
+    osc staging -p openSUSE:Leap:15.1 adi --by-devel
+
+* diagnostiquer les erreurs
+* vérifier que les paquets sont  correctement groupés, les déplacer au besoin
+* rappeler aux paqueteurs que des demandes de revus sont en attente si besoin
+* décliner les requêtes ne pouvant être incluse ou qui sont en attente depuis trop longtemps
+
+=== Gérer la file d'attente leap-reviewers ===
+
+   osc review list -G leap-reviewers
+
+* prendre en compte les remarques simples
+* décliner les mises à jour apportant trop de changement ou impliquant un changement d'origine du paquet, notamment depuis SLE
+* notifier le responsable de la publication des soucis dont vous n'êtes pas certain
+
+=== Embarquement ! ===
+
+   osc staging -p openSUSE:Leap:15.1 accept X Y ...
+
+* s'assurer que les changements apportés à ''staging'' le soit également dans ''rings''
+* ajuster les fichiers _product lorsque nécessaire
+
+=== Liste des bogues ===
+
+https://bugzilla.opensuse.org/buglist.cgi?list_id=6617721&product=openSUSE%20Distribution&resolution=---&version=Leap%2015.1
+
+* garder l'œil sur les nouveaux bogues
+* normalement l'équipe en charge du filtrage des bogues prend soin de les assigner mais vous pourriez vouloir le faire vous-même pour les bogues importants
+* augmenter la priorité et la sévérité des bogues importants
+* ajouter le drapeau ''bloquant'' si besoin
+
+[[Category:Leap]]
+
+{{IW|Portal:Leap}}

@@ -1,0 +1,210 @@
+{{Page à traduire}}
+
+{{Leap navbar}}
+
+{{Intro|Cet article vous donne un regard sur [[Portal:Leap|openSUSE Leap]] depuis la vision d'un contributeur. La plupart des concepts, commandes à exécuter et points de contacts sont identiques à ceux de [[Portal:Factory|openSUSE Factory]]. Il est recommandé d'utiliser le guide [[openSUSE:How_to_contribute_to_Factory|TODO: How to Contribute to openSUSE Factory]] comme point de départ en complétant avec le présent guide qui se concentre sur les spécificités de [[Portal:Leap|openSUSE Leap]]. Ce dernier vise à démontrer que les contributions à Leap sont à la fois '''simples''' et '''tout à fait bienvenues'''.}}
+
+== Quand est-ce qu'un paquet peut être soumis pour inclusion dans Leap ? ==
+
+En général, les paquets ne peuvent être ajouté à une version de Leap que durant sa phase de développement et non après sa sortie. Toute exception doit être traitée et approuvée par [[Portal:Maintenance|l'équipe de maintenance]].
+
+Les paquets déjà présents dans openSUSE Factory '''ne''' seront '''pas''' inclus automatiquement dans Leap. Leur acceptation dans Factory reste toutefois un prérequis.
+
+== Comment ajouter un nouveau paquet dans une version d'openSUSE Leap en phase de développement ? ==
+
+''Notez qu'openSUSE Leap 42.3 et 15.0 sont à présente en phase de maintenance. Cette section s'applique donc à openSUSE Leap 15.1''
+
+Leap est une version stable, construite en combinant des paquets provenant de [https://www.suse.com/products/server/ SUSE Linux Enterprise] et [[Portal:Tumbleweed|openSUSE Tumbleweed]].
+
+Pour les personnes familières avec le [[openSUSE:Factory_development_model|Modèle de Développement de Factory]], cette dernière a la même utilité vis-à-vis de Leap qu'un projet Devel vis-à-vis de Factory.
+
+Par défaut, les nouveaux paquets à destination de Leap doivent provenir de SLE ou bien avoir été acceptés au préalable dans Factory.
+
+Il est préférable que les nouveaux paquets soient tout d'abord présentés sur la liste de diffusion opensuse-factory avec un lien vers la demande d'intégration. Une bonne présentation devrait contenir des informations sur l'état du projet amont, sa capacité à être maintenu et en quoi il est utile de l'avoir dans la distribution.
+
+Exemple de demande d'intégration depuis le projet de développement :
+{{Shell|osc submitrequest -m 'Submitting Factory version of Salt for openSUSE Leap, see https://lists.opensuse.org/opensuse-factory/2015-07/msg00443.html ' systemsmanagement:saltstack/salt openSUSE:Leap:15.1}}
+
+Il est également possible de soumettre directement depuis Factory mais selon demandera des arrangements supplémentaires :
+{{Shell|osc submitrequest -m 'Submitting Salt for openSUSE Leap, see https://lists.opensuse.org/opensuse-factory/2015-07/msg00443.html ' openSUSE:Factory/salt openSUSE:Leap:15.1}}
+
+À cause d'un bogue dans OBS, <tt>~/.oscrc</tt> doit avoir la variable <tt>submitrequest_on_accept_action</tt> désactivée et il ne doit pas y avoir les options <tt>--cleanup</tt> ou <tt>--no-cleanup</tt> activée dans la ligne de commande, sans quoi OBS renverra une erreur de permissions.
+
+L'exemple ci-dessous montre comment soumettre un paquet depuis SLE :
+{{Shell|osc submitrequest -m 'Submitting jakarta-commons-dbcp from SLE 15 to Leap' SUSE:SLE-15-SP1:GA/jakarta-commons-dbcp openSUSE:Leap:15.1}}
+
+Si un paquet pour Leap ne pouvait, pour quelque raison que ce soit, pas être importé depuis SLE ou Factory, la raison doit être précisée dans la demande d'intégration.
+
+== Comment mettre à jour un paquet dans une version d'openSUSE Leap en phase de développement ? ==
+
+En général, les mises à jour de version de paquets au sein des mises à jour mineures de Leap sont possibles. Le mainteneur du paquet doit toutefois évaluer avec précaution les bénéfices et possibles problèmes qu'une telle mise à jour implique pour les utilisateurs du paquet en question. Au cours de la vie d'une version majeure, Leap est considérée stable, en conséquence les changements importants ou cassant des compatibilités doivent être évités.
+
+Une fois les pour et les contre d'une telle mise à jour bien évalués, c'est le même processus que pour les nouveaux paquets qui s'applique, à savoir que ces derniers doivent tout d'abord être acceptés dans Factory.
+
+== Comment ajouter un nouveau paquet TODO !
+== How to add a new package to a released openSUSE Leap version ==
+
+See [[Portal:Maintenance|Maintenance Portal]] and [[openSUSE:Package_maintenance|Maintenance submission]].
+
+== Informations sur le développement ==
+
+=== Organisation du projet ===
+
+;openSUSE&#58;Leap&#58;15.1: paquets publiés sous licences libres [https://build.opensuse.org/project/show/openSUSE:Leap:15.0]
+;openSUSE&#58;Leap&#58;15.1&#58;NonFree: paquets publiés sous licences non libres [https://build.opensuse.org/project/show/openSUSE:Leap:15.1:NonFree]
+;openSUSE&#58;Leap&#58;15.1&#58;Update: mises à jour des paquets publiés sous licences libres [https://build.opensuse.org/project/show/openSUSE:Leap:15.1:Update]
+;openSUSE&#58;Leap&#58;15.1&#58;NonFree&#58;Updates: mises à jour des paquets publiés sous licences non libres [https://build.opensuse.org/project/show/openSUSE:Leap:15.1:NonFree:Update]
+
+==== Projets amont ====
+
+De nombreux paquets dans openSUSE Leap 15.1 proviennent d'autres projets. Au cours de la phase de publication, les développeurs peuvent inclure des mises à jour pour ces paquets. Un [https://build.opensuse.org/package/view_file/openSUSE:Leap:15.1/00Meta/lookup.yml?expand=1 fichier de correspondance] précise l'origine de chaque paquet.
+
+;SUSE&#58;SLE-15-*: paquets issus de SUSE Linux Enterprise : tirés automatiquement
+;openSUSE&#58;Factory: paquets issus de Factory package : tirés automatiquement jusqu'au gel du paquet
+
+=== Macros RPM des versions de distributions ===
+
+* suse_version 1315 pour toute la durée de vie de SLE12 et openSUSE:Leap:42.x
+* suse_version 1500 pour toute la durée de vie de SLE15 et openSUSE:Leap:15.x
+* en complément il est possible d'utiliser is_opensuse 1 pour openSUSE:Leap:* afin de marquer la différence
+{|  class="wikitable"
+|+macros RPM pour SLE 15, Leap 15 et Tumbleweed
+| 
+|SLE15:GA
+|SLE15:SP1
+|Backports:SLE-15
+|Leap 15.0
+|Leap 15.1
+|Tumbleweed
+|-
+|suse_version
+|1500
+|1500
+|1500
+|1500
+|1500
+|1550¹
+|-
+|sle_version
+|150000
+|150100
+|150000³
+|150000
+|150100
+|undefined
+|-
+|is_opensuse
+|undefined
+|undefined
+|1
+|1
+|1
+|1
+|-
+|is_backports
+|undefined
+|undefined
+|1⁴
+|undefined
+|undefined
+|undefined
+|}
+{|  class="wikitable"
+|+macros RPM pour SLE 12 et Leap 42
+| 
+|SLE12:GA
+|SLE12:SP1
+|SLE12:SP2
+|SLE12:SP3
+|SLE12:SP4
+|Backports:SLE-12
+|Leap 42.1
+|Leap 42.2
+|Leap 42.3
+|-
+|suse_version
+|1315
+|1315
+|1315
+|1315
+|1315
+|1315
+|1315
+|1315
+|1315
+|-
+|sle_version
+|120000
+|120100
+|120200
+|120300
+|120400
+|120000³
+|120100
+|120200
+|120300
+|-
+|is_opensuse
+|undefined
+|undefined
+|undefined
+|undefined
+|undefined
+|undefined
+|1
+|1
+|1
+|-
+|leap_version²
+|undefined
+|undefined
+|undefined
+|undefined
+|undefined
+|undefined
+|undefined
+|<del>420200</del>
+|<del>420300</del>
+|-
+|is_backports
+|undefined
+|undefined
+|undefined
+|undefined
+|undefined
+|1⁴
+|undefined
+|undefined
+|undefined
+|}
+
+
+# ne pas se fier à cette version, susceptible de changer
+# leap_version est dépréciée, utiliser is_opensuse et sle_version à la place
+# Backports:* ces projets héritent de la macro %sle_version correspondant à la version de SLE en cours
+# la macro %is_backports est définie pour tous les projets openSUSE:Backports:SLE-*-*
+
+Pour les constructions de paquets inter distribution se référer à : [[openSUSE:Build_Service_cross_distribution_howto]]
+
+=== Conseils et astuces ===
+
+==== Paquets non inclus depuis plusieurs semaines ====
+
+===== Erreur de construction dans Staging:adi =====
+
+Toutes les inclusions de paquet sont construites de façon isolée dans openSUSE:Leap:15.1:Staging:adi:<number> afin d'assurer que l'intégration sera complète. Cela échoue parfois du fait de configurations différentes dans le projet de développement par exemple. Parfois d'autres paquets ont besoin d'être regroupés dans le même projet. Dans un tel cas, il vaut mieux demander de l'aide à l'équipe en charge de la publication.
+
+===== Contrôle de Factory =====
+
+Les demandes d'inclusion dans Leap 15.1 attendent leur acceptation dans Factory afin d'y être revues. Parfois des paquets enfants restent longtemps à cette étape du fait de leur faible priorité. Si un requête dans Factory est bloquée, du fait de vérification légale et que cela affecte Leap 15.1, il vaut mieux prendre contact avec l'équipe en charge de la publication afin qu'elle ajuste les priorités.
+
+===== Revue par les mainteneurs =====
+
+Les paquets soumis par une personne autre que le mainteneur du paquet dans Factory doivent être contrôlés par celui-ci dans leur projet de développement. Si votre demande n'obtient pas de réponse après un certain laps de temps, essayez d'ajouter un commentaire à celle-ci afin d'attirer l'attention ou prenez contact avec le mainteneur directement.
+
+[[Category:Leap]]
+[[Category:42.3]]
+[[Category:15.0]]
+[[Category:15.1]]
+
+{{IW|openSUSE:Leap}}

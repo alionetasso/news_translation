@@ -1,0 +1,116 @@
+{{ Page à traduire }}
+La communauté openSUSE a le plaisir d'annonce la publication de la version 15.1 de Leap
+Leap 15.1 améliore la prise en charge de matériels et de leur pilote ainsi que le processus d'installation
+
+[[:en:Release_announcement_15.1|EN]] / [[:de:Release-Ankündigung_15.1|DE]] / [[:it:Annuncio_di_rilascio_15.1|IT]] / [[:es:Anuncio_publicaci%C3%B3n_15.1|ES]] / [[:nl:Release_Aankondiging_15.1|NL]] / [[:zh:发行公告_15.1|ZH]] / [[:fr:Annonce_de_publication_15.1|FR]]
+
+22/05/2019
+
+La publication, ce jour, d'openSUSE Leap 15.1 apporte une prise en charge du matériel améliorée à tous les utilisateurs professionnels, aux entrepreneurs ainsi qu'aux éditeurs logiciels indépendants.
+
+Leap 15.1 enrichit les fonctionnalités de YaST et de l'installeur.
+
+"Continuité et stabilité sont les deux points forts que nous apportons à nos utilisateurs avec Leap 15.1", a déclaré Haris Sehic, membre de la communauté openSUSE. "Avec Leap 15.1, nous avons introduit un grand nombre de nouvelles fonctionnalités et des innovations en termes de sécurité, performance ainsi que côté environnement de bureau et outils. En gardant à l'esprit le niveau de stabilité, d'efficience et de fiabilité qu'a atteint Leap, nous avons réussi dans cette nouvelle publication à conserver ce niveau de qualité de telle sorte que nos utilisateurs particuliers et professionnels en PME pourront, plus que jamais, profiter de la base « entreprise » d'une distribution Linux openSUSE. Continuons donc de nous amuser !"
+
+Les versions de Leap s'adaptent bien aux mises à l'échelle et les usages en tant que station de travail ou que serveur sont d'égales importance dans les flux de travail professionnel. Cette importance se retrouve dans le menu d'installation ainsi que dans la quantité de paquets que Leap met à disposition ou encore le nombre de matériels pris en charge. Leap se prête bien à une utilisation en tant que machine virtuelle (VM) ou container, permettant aux utilisateurs professionnels d'opérer efficacement des services réseaux que ce soit sur un seul serveur ou dans un data-center.
+
+Les professionnels, les administrateurs système et les développeurs peuvent avoir toute confiance en la fiabilité de la distribution Leap. En effet, son processus de développement utilise des outils open-source communs à SUSE et openSUSE, à savoir l'Open Build Service et les tests automatisés via openQA, afin de fournir une distribution moderne, sécurisé et longuement testée.
+
+==== Quoi de neuf ====
+
+Une toute nouvelle pile graphique est disponible dans cette nouvelle distribution GNU/Linux communautaire basée sur une version entreprise. La prise en charge matérielle graphique du noyau Linux 4.19 a été rétroportée pour la sortie de 15.1, qui utilise le noyau Linux 4.12 et prend ainsi en charge de nouveau pilotes graphiques pour cartes graphiques (Graphics Processing Unit ou GPU) et améliore la gestion des puces AMD Vega.
+
+La virtualisation des cartes graphiques est devenue de plus en plus courante chez les fabriquants tels qu'AMD, Intel ou Nvidia et Leap 15.1 permet d'utiliser ces implémentations et les prend en charge au sein d'environnements virtualisés ou dans le cloud.
+
+Leap 15.1 utilise à présent Network Manager par défaut, à la fois sur les ordinateurs fixes et portables ; auparavant ce n'était le cas que pour les portables. Les installations destinées aux serveurs continueront d'utiliser Wicked, le gestionnaire de configuration réseau avancé d'openSUSE. Cette version ajoute, de plus, quelques pilotes WiFi populaires destinés à des puces sans-fil modernes. Enfin, les fichiers /etc/resolv.conf, yp.conf et d'autres sont désormais de simples liens vers des fichiers dans /run et sont gérés par netconfig, ceci s'applique aussi bien à Wicked qu'à Network Manager.
+
+La gestion des services depuis YaST a été réorganisée afin de tirer le meilleur parti des nombreuses fonctionnalités offertes par systemd en la matière.
+
+==== Improved Setup and Configuration ====
+==== Installation et configuration améliorées ====
+
+Some of the improvements to YaST have made for better management of services. Firewalld can be managed in text mode. There is a new User Interface to manage Firewalld, including AutoYaST support/advancements. System administrators will have better control with Salt formulas in the yast2-configuration-management module, and management of SSH keys per user will make sysadmins tasks much more pleasant.
+Les évolutions de YaST permettent une meilleure gestion des services. Firewalld peut à présent être géré en mode texte. Il dispose également d'une nouvelle interface utilisateur, laquelle inclut les améliorations apportées à AutoYaST. Les administrateurs système diposeront d'un contrôle affiné grâce aux formulas Salt intégrées au module yast-configuration-management, de même que la gestion des clés SSH par utilisateur leur facilitera certaines tâches d'Administration.
+
+YaST comes with an improved Partitioner, that now can automatically format full disks without partition tables, create software MD RAIDs on top of full disks, create partitions within a software-defined MD RAID and many other combinations. AutoYaST also supports all these combinations. The work the YaST team has put into the setup and configuration tool has a better default partitioning proposal in several scenarios like those with small disks or systems with several disks making solutions easier for Linux professionals. Leap 15.1 brings new YaST icons developed by the community.
+YaST est livré avec un partitionneur enrichi qui peut désormais formatter automatiquement des disques entiers sans table de partition, créer des grappes RAID logicielles sur des disques complets, créer des partitions au sein de grappes RAID logicielles et d'autres possibilités encore. AutoYaST prend également en charge ces diverses possibilités. Le travail fournit par l'équipe YaST sur les outils de configuration a amélioré les propostions de partionnement par défaut dans de nombreux cas, notamment dans le cas de petits disques ou encore sur des systèmes disposant de plusieurs disques, ce qui facilite la vie des professionnels Linux. Leap 15.1 intègre aussi de nouvelles icônes pour YaST créées par la communauté.
+
+The YaST team worked hard on improving the 4k display (HiDPI) experience. HiDPI displays are now  autodetected and the UI is auto-scaled giving the installer a beautifully crisp interface.
+L'équipe YaST a fourni un travail important dans le but d'améliorer l'expérience utilisateur sur écran 4k (HiDPI). Ces écrans sont maintenant détectés automatiquement et l'interface est mise à l'échelle en conséquence, fournissant à l'installeur une interface claire et raffinée.
+
+==== Security and Maintenance  ====
+==== Sécurité et maintenance ====
+
+Maintenance updates from both Leap 15 and updates from SUSE Linux Enterprise 15 are inherited into Leap 15.1 and are part of the release. The security team issues fast updates for Leap 15.1. With maintenance updates, about 10 to 20 percent are contributed from the community. 
+Leap 15.1 bénéficie des mises à jour depuis les dépôts Leap 15 mais aussi depuis SUSE Linux Enterprise 15. L'équipe de sécurité publie très rapidement les mises à jour nécessaires à Leap 15.1. Quant aux mises à jour de maintenance, 10 à 20% d'entre elles proviennent directement de la communauté.
+
+There is a YaST testing option for users to test maintenance updates before being released. The testing repository allows users to test the updates seven days before being pushed to the maintenance update repository. 
+YaST dispose d'une option ''testing'' permettant aux utilisateurs de tester les mises à jour de maintenance avant leur publication. Le dépôt testing fournit ainsi ces mises à jour 7 jours avant qu'elles ne soient rendues disponibles dans le dépôt des mises à jour de maintenance.
+
+Minor versions of the Leap 15 series have about an 18-month life cycle of maintenance and security as minor releases come roughly once a year. Users of openSUSE Leap, 15.0, which was released on May 25, 2018, should upgrade to Leap 15.1 within the next 6 months. The 15 series of Leap is expected to achieve an estimated 36 months of maintenance and security updates. 
+Les versions mineures de la série Leap 15 ont un cycle de vie 18 mois, durant lesquels elles bénéficient des mises à jour de maintenance et de sécurité. Une nouvelle version mineure est publiée globalement une fois par an. Les utilisateurs d'openSUSE Leap 15.0, publiée en mai 2018 devront donc mettre à jour vers la 15.1 dans les 6 mois à venir. La série Leap 15 recevra les mises à jour de maintenance et de sécurité durant 36 mois.
+
+==== Images, déploiement et matériel avec Linode, Slimbooks et Tuxedo ====
+
+Leap 15.1 continue d'attirer de plus en plus de fabriquants de matériel, en effet Slimbook et TUXEDO Computers vont tous deux offrir la possibilité d'acheter des machines avec Leap 15.1 préinstallée. Les images cloud de Leap sont dès maintenant disponibles chez Linode et prêtes pour tous vos besoins d'infrastructure.
+
+Les ordinateurs TUXEDO Computers ont joué un rôle important dans les tests d'openSUSE Leap 15.1.
+
+"We share the fundamental belief that the user should have the best user experience we can offer," said Herbert Feiler, CEO of TUXEDO Computers. "openSUSE Leap 15.1 is the consistent continuation and further development of stable Linux for end users. Therefore we of course continue to offer openSUSE pre-installed on all TUXEDO notebooks and PCs," adds Feiler.
+« Nous partageons la même conviction que l'utilisateur doit bénéficier de la meilleure expérience que nous puissions lui offrir, » a déclaré Herbert Feiler, CEO de TUXEDO Computers. « openSUSE Leap 15.1 représente la suite logique du développement d'un système Linux stable à destination des utilisateurs finaux. Il est donc normal que nous continuions à proposer openSUSE préinstallée sur tous les PC TUXEDO, fixes ou portables. » a t'il ajouté.
+
+Cloud hosting services will offer images of Leap 15.1 in the coming weeks like Amazon Web Services, Azure and OpenStack. Leap 15 is continually optimized for cloud usage scenarios as a host and virtualization guest.
+Les fournisseurs d'hébergement dans le cloud, tel qu'Amazon Web Services, Azure ou OpenStack, proposeront des images de Leap 15.1 dans les semaines à venir. Leap 15 est continuellement optimisée pour une utilisation dans le cloud, que ce soit en tant qu'hôte ou que système invité virtuel.
+
+==== Environnement de bureau ====
+
+Leap propose une grande varieté d'environments de bureau Linux, ce qui inclut bien sûr les traditionnels bureaux KDE et GNOME mais aussi Xfce, plus léger mais tout aussi efficace. Les utilisateurs peuvent choisir aisément leur environnement de bureau favori, sa configuration et leur flux de travail. GNOME 3.26 et KDE Plasma 5.12, version disposant d'un support à long terme, sont tous deux présents dans Leap 15.0 et Leap 15.1. Les utilisateurs professionnels de SLE 15 peuvent également obtenir la suite KDE ainsi que d'autres paquets disponibles via [https://packagehub.suse.com/ PackageHub]. Les images Live de KDE et GNOME sont disponibles, facilitant les tests pré-installation, via l'onglet Live de la page dédiée à Leap sur software.opensuse.org. Une image Live de dépannage est également disponible à l'onglet [https://download.opensuse.org/distribution/leap/15.1/live/ Live Images].
+
+==== Containers  ====
+Leap 15.1 is filled with several containerization technologies like Singularity, which bring containers and reproducibility to scientific computing and the high-performance computing (HPC) world. Singularity first appeared in the Leap distribution in Leap 42.3 and provides functionality to build smallest minimal containers and runs the containers as single application environments. This is also the first Leap release containing the Podman container runtime and Buildah build tool; the used by default in openSUSE Kubic. Collectively they provide a more lightweight and resilient alternative to the alternative Docker container runtime, while also adding a number of unique features.
+
+====  Gamers and Designers ====
+
+Web designers and digital marketers can make use of the newer graphics stack with the minor version update of the Mesa 3d Graphic Library and use open source tools like the 3D Creation Software Blender to create intriguing and captivating animations.
+
+Gamers, music lovers and podcaster can enjoy the enhancements of the High Definition HD-audio, backported USB-audio drivers and software updates that were made for MultiMedia Card (MMC) and embedded MMC (eMMC). 
+
+==== Migration to Enterprise made easy ====
+openSUSE Leap 15.1 brings plenty of community packages built on top of a core sources of SUSE Linux Enterprise (SLE) 15 SP1. The shared common core and alignment with SLE makes migrations to SUSE’s enterprise product easy for professional who want to extend the life cycle of their maintenance and security past the lifecycle of Leap. Migrating from the community version of Leap to SUSE Linux Enterprise is an available option for those who desire to migrate. The migration from openSUSE Leap server installations to SUSE Linux Enterprise is easy for system integrators developing on Leap code who may decide to move to an enterprise version for SLAs, certification, mass deployment, or extended Long Term Support. The instructions on how to do this using the SUSEConnect package and SUSE documentation can be found [https://www.suse.com/documentation/sles-15/book_sle_upgrade/data/sec_upgrade-online_opensuse_to_sle.html here].
+
+==== All Standard and Some Existing Services for Networks ====
+Like prior versions, System Administrators and small businesses can use Leap for hosting web and mail servers or for network management with DHCP, DNS, NTP, Samba, NFS, LDAP, and hundreds of other services.
+
+File sharing and cloud services include software such as [https://nextcloud.com/ NextCloud] and even the groupware application suite [https://kopano.com/ Kopano] (formerly known as Zarafa) is part of the official Leap 15.1 repositories.
+
+Leap 15.1 also introduces automatically configured SSH for both it’s “Server” and “Transactional Server” system roles by default, helping make things a little easier to work on your server immediately after installation.
+
+==== Health and Science ====
+The Leap distribution supports the health, science, research and developer communities. GNU Health, the award-winning health- and hospital management system, comes in version 3.4.x, which introduces the Federation Server, gnuhealth-thalamus. There is an added setup-script for GNU Health called openSUSE-gnuhealth-setup to ease the setup of a new system for less experienced users.
+Solve linear and nonlinear problems numerically and perform other numerical experiments using a language that is mostly compatible with MATLAB through GNU Octave or use the Free and Open Source Geographic Information System [https://www.qgis.org/ QGIS] to create, edit, visualize, analyze and publish geospatial information. 
+Leap has plenty more packages like the Computer Algebra System (CAS) for problems in field theory called Cadabra, the interactive physical simulator Step, and the periodic table package Kalzium.
+
+==== Platforms ====
+Leap works with X86_64 and deployment scenarios can be run for physical, virtual, host and guest, and cloud. Ports to other architectures like [https://en.wikipedia.org/wiki/ARM_architecture ARM64] and [https://en.wikipedia.org/wiki/Power_Architecture POWER] are in the works by the community.
+
+The installation of openSUSE for the Raspberry Pi for ARM64 has been simplified to one image and is customizable. openSUSE Leap 15.1 is the first multi-purpose operating systems to support a full standard Linux experience in Raspberry Pi. There is no need for a custom specific ISO or precooked image to install on the Raspberry PI. The standard unmodified openSUSE image can be installed just like on any other computer. The installer detects and proposes the set of default configurations. Raspberry Pi needs a very specific partition containing the system firmware. This is important for the installer to detect the specific partition, preserve it and mount it in /boot/vc to allow the operating system to perform updates of the firmware.
+
+
+==== Download Leap 15.1 ====
+To download the ISO image, visit https://software.opensuse.org/distributions/leap
+
+==== Questions ====
+If you have a question about the release or think you may have found a bug, ask on one of the following :
+* https://t.me/openSUSE_group 
+* https://lists.opensuse.org/opensuse-support/
+* https://discordapp.com/invite/openSUSE
+
+==== Get involved ====
+If you would like to help the openSUSE Project, take a look at the list of ways
+you can participate at:
+https://rootco.de/2016-04-03-opensuse-and-you/
+
+The openSUSE Project is a worldwide community that promotes the use of Linux everywhere. It creates two of the world’s best Linux distributions, the Tumbleweed rolling-release, and Leap, the hybrid enterprise-community distribution. openSUSE is continuously working together in an open, transparent and friendly manner as part of the worldwide Free and Open Source Software community. The project is controlled by its community and relies on the contributions of individuals, working as testers, writers, translators, usability experts, artists and ambassadors or developers. The project embraces a wide variety of technology, people with different levels of expertise, speaking different languages and having different cultural backgrounds. Learn more about it on opensuse.org
+
+[[Portal:15.1]]
+
