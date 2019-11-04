@@ -2,6 +2,8 @@
 title: ' Complément d''information sur le vote sur le changement de nom du projet openSUSE'
 published: true
 visible: true
+feed:
+    limit: 10
 ---
 
 Suite aux discussions sur le "*changement de logo et de nom du projet openSUSE*" qui a commencé en juin sur la liste de diffusion du projet openSUSE[1], le comité des élections a reçu une demande du conseil d'administration afin d'organiser un vote où les membres d'openSUSE pourront indiquer s'ils sont pour ou contre ce changement de nom de projet.
