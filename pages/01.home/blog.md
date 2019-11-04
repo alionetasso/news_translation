@@ -1,6 +1,7 @@
 ---
 title: Home
 body_classes: 'title-center title-h1h2'
+visible: false
 blog_url: /
 show_sidebar: true
 show_breadcrumbs: true
