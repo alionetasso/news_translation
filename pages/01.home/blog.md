@@ -23,4 +23,3 @@ sidebar:
 layout: cards
 ---
 
-![](http://nod.volted.net/user/pages/01.home/Simplicity_Gnome_5K_Neon_Blue.png)
