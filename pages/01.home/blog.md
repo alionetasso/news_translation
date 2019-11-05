@@ -5,7 +5,7 @@ body_classes: 'title-center title-h1h2'
 visible: true
 sidebar:
     enabled: true
-layout: boxed
+layout: cards
 blog_url: /
 show_sidebar: true
 show_breadcrumbs: true
