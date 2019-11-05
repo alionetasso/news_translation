@@ -2,7 +2,10 @@
 title: Home
 published: true
 body_classes: 'title-center title-h1h2'
-visible: true
+visible: false
+sidebar:
+    enabled: true
+layout: boxed
 blog_url: /
 show_sidebar: true
 show_breadcrumbs: true
